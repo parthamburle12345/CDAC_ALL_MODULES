@@ -1,0 +1,21 @@
+these functions must return True/False
+__eq__
+__ne__
+__ge__
+__gt__
+__le__
+__lt__
+
+these functions must return self
+__iadd__
+__isub__
+__imul__
+__idiv__
+__imod__
+
+these functions should not return anything
+__add__
+__sub__
+__mul__
+__div__
+__mod__

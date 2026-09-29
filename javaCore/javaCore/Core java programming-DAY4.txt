@@ -1,0 +1,187 @@
+		      Core java programming-DAY4
+Part I
+Introduction to java
+data types
+variables
+operators
+conditional and control statements
+method
+
+Array
+
+int[] num = new int[5];
+num[0] = 10;
+num[1] = 20;
+num[2] = 30;
+num[3] = 40;
+num[4] = 50;
+
+int[] num = {10,20,30,40}
+
+for(int i=0;i<num.length;i++)
+{
+   syso(num[i])
+}
+
+
+for(int ele :num)
+{
+  syso(ele)
+
+}
+
+-----------------------------------------------------
+Part II
+
+oops
+
+What is object-Oriented Programming
+
+Object-Oriented Programming(oop) is a programming approach
+where a program is designed using classes and objects.
+
+Object
+-object is a real world entity(things)
+-object has two things (data:properties)(behaviour:method)
+-object is an instance of a class
+-object takes memory
+
+class:
+ - class is a template /blueprint
+ - the class is defining the properties and the behaviour of the object
+ - is used to create object
+ - it doesn't take memory
+
+class Student
+{
+ int id;
+ String name;
+ int mark;
+ String sub;
+}
+
+Student s1 = new Student()
+Student s2 = new Student()
+s1.id = 1001
+s1.name = pmrunal
+s1.mark = 30
+s1.sub = java
+
+
+s1
+
+id:1001
+name:pmrunal
+mark:30
+sub :java
+
+
+s2
+
+id:1002
+name:samiya
+mark:40
+sub :python
+
+s3
+
+id:1003
+name:mansi
+mark:30
+sub :dbt
+
+
+
+main()
+{
+
+int a =10;
+int b =20;
+
+int[] num = [10,20,30,40}
+
+}
+
+
+classes and objects
+
+how to initialize the object
+
+using reference
+using method
+scanner
+passing data
+
+using Constructor
+
+constructor is a kind of method which is used to initialize the object
+
+constructor name and the class name should be same
+constructor can not return any thing
+constructor get called automatically during object creation
+
+
+
+type of constructor
+
+default-no argument
+parameterised constructor
+
+
+
+class Student
+{
+  int sid
+  String name;
+
+  Student() 
+{
+    sid = 1001;
+    name = "Nathan"
+
+}
+
+}
+
+main()
+{
+Student s1 = new Student()
+s1.dispaly();
+}
+
+
+
+variable
+
+local variable
+
+instance variable
+
+declared inside the class
+outside the method
+
+instance variable are directly available in all non static method
+inside the class
+
+need object reference to access from static context
+constructor
+
+----------------------------------------------------------------------------------
+static variable
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,18 @@
+GET /api/v1/books
+Host: localhost:5000
+Accept: application/json
+
+###
+
+
+POST /api/v1/books
+Host: localhost:5000
+Content-Type: application/json
+
+{
+    "title": "REST api development using Flask",
+    "author" : "Vinod Kumar K",
+    "price": 1999
+}
+
+###

@@ -1,0 +1,32 @@
+Day 1
+Python Basics
+1. Closure
+2. Nested functions
+3. Decorator
+4. __call__ for decorator
+5. Polymorphism using ABC
+6. Inheritance and Mixin to intrspect
+7. Comprehension and Generators, yield
+8. coroutine
+9. context manager , __enter__ and __exit
+10. Threads Basics
+11. Scope , Global, Nonlocal
+12. partial function and currying
+
+
+Day 2
+python -m venv cdacvenv 
+pip install numpy
+numpy
+ndarray
+tensor init
+Vectorized operation
+broadcasting
+linear algebra
+series
+pandas
+
+
+
+
+

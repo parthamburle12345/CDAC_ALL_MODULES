@@ -1,0 +1,37 @@
+[
+    {
+        "id": 1,
+        "name": "parth",
+        "course": "java",
+        "marks": 99.0,
+        "grade": "A"
+    },
+    {
+        "id": 3,
+        "name": "Rohan Nair",
+        "course": "Web Architecture",
+        "marks": 45.0,
+        "grade": "F"
+    },
+    {
+        "id": 4,
+        "name": "Sneha Kulkarni",
+        "course": "Python Core",
+        "marks": 92.0,
+        "grade": "A"
+    },
+    {
+        "id": 5,
+        "name": "Amit Verma",
+        "course": "Data Science",
+        "marks": 63.5,
+        "grade": "C"
+    },
+    {
+        "id": 6,
+        "name": "parth",
+        "course": "java",
+        "marks": 11.0,
+        "grade": "F"
+    }
+]

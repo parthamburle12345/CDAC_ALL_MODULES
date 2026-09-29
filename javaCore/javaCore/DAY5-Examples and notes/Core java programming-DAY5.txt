@@ -1,0 +1,200 @@
+		   Core java programming-DAY5
+
+part I
+
+mcq test-189
+
+type casting
+
+int a =10;
+long l = a;
+
+float f = a;
+
+float f = 10.3;
+int a = (int)f;
+
+syso(a)
+10
+
+String s = "100"
+int num = Integer.partseInt(s)
+
+
+converting one data type to another
+
+implicit- 
+
+
+explicitly
+
+Part II
+oops
+classes and objects
+constructor
+instance variable
+
+
+Student s1 = new Student()
+s1.read()
+s1.display()
+s1.findresult()
+
+Student s2 = new Student()
+s2.read()
+s2.display()
+s2.findresult()
+
+Student s3 = new Student()
+s3.read()
+s3.display()
+s3.findresult()
+
+integer array
+
+int[] num = new int[3]
+num[0] = 10;
+
+
+array of objects
+
+s1,s2,s3
+
+Student[] s = new Student[4];
+
+for(int i =0;i<5;i++)
+{
+s[i].read()
+s[i].dispay()
+s[i].findresult
+}
+
+
+this
+
+this is reference  used by JVM referring to current object;
+
+
+
+static and non static behaviour(method,variable)
+
+
+static variable
+
+A static variable is a variable that belongs to the class rather than
+individual objects
+
+a static variable has only one copy, which is shared by all objects
+
+it get memory only once , when class gets loaded
+
+class student
+{
+static String cname:
+
+
+main()
+{
+
+student.cname = "dac";
+
+}
+static variable can by accessed by name or classname.variable name;
+no need of object
+
+-------------------------------------------------------------
+classes and objects
+constructor
+
+static and non static behaviour(method,variable)
+
+
+
+inheritance
+
+What is inheritance
+
+Inheritance is an oop concepts in which one class acquires the properties and behaviour of another class
+
+creating subclass object, accessing the super class feature(properties+behavious) as well as sub class features
+
+super class
+
+sub class
+
+extends
+
+class A
+{
+   int i;
+  void dispA()
+  {
+    syso("dispA" +i)
+  }
+
+}
+
+class B extend A
+{
+  int j=20;
+
+  void dispB()
+  {
+    syso("dispB" + j)
+
+  }
+
+}
+}
+
+class Testinheritance
+{
+
+  main()
+  {
+   B b = new B();
+  b.j =20;
+  b.dispB();
+  b.i =10;
+  b.dispA()
+  }
+
+}
+
+
+
+
+
+
+class test
+{
+
+main()
+{
+ Scanner s= new Scanner(System.in)
+
+ Employee e = new Employee(s.nextINt();)
+  e.display()
+}
+}
+
+
+type of inheritance
+single inheritance
+multilevel inheritance
+Hierarchical inheritance
+multiple inheritance - not supported
+
+
+super
+
+
+
+
+
+
+
+
+
+
+

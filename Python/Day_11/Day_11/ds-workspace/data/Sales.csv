@@ -1,0 +1,1001 @@
+Invoice Number,Date,Time,Internal Toy ID Number,Toy Item Number,Toy Company,Toy Name,Suggested Age,Price Per Toy,Units Sold,Total Line Revenue,Total COGS,Payment,Cashier ID,Member?,Coupon?,Purchaser Age,Parking Validation?
+654522,1/7/2010,10:25,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,V.W.|880-4523,No,No,39,No
+654526,1/7/2010,12:00,L217/SN,255,Duplo,Farming Scene,7 and up,$24.95 ,5,$124.75 ,$81.10 ,Visa,B.X.|880-9149,No,No,29,No
+654568,1/7/2010,14:19,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,Z.Q.|880-4240,No,Yes,46,Yes
+654576,1/25/2010,12:57,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Discover,D.U.|880-2953,No,No,36,No
+654613,2/5/2010,14:51,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.Z.|880-1179,No,No,33,No
+654624,2/5/2010,14:36,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Cash,L.W.|880-4986,No,No,47,No
+654650,2/6/2010,14:33,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.S.|880-7532,No,No,34,No
+654650,2/6/2010,14:33,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Mastercard,D.S.|880-7532,No,No,34,No
+654668,2/11/2010,13:42,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Check,D.W.|880-7199,No,No,47,Yes
+654673,2/20/2010,15:27,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Cash,W.B.|880-9647,No,No,32,No
+654693,3/11/2010,15:45,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,B.Y.|880-6845,No,No,36,No
+654693,3/11/2010,15:45,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,B.Y.|880-6845,No,No,36,No
+654733,3/11/2010,13:59,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,P.N.|880-3021,No,No,36,No
+654754,3/27/2010,12:08,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,P.N.|880-3021,No,No,33,No
+654799,4/3/2010,15:27,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Cash,A.U.|880-2167,Yes,No,47,No
+654827,4/9/2010,15:58,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,A.U.|880-2167,No,No,35,Yes
+654834,4/9/2010,12:06,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,Z.Q.|880-4240,Yes,Yes,49,No
+654860,4/9/2010,17:12,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Gift Card,B.B.|880-9330,No,Yes,30,No
+654883,4/9/2010,12:59,L217/SN,255,Duplo,Farming Scene,7 and up,$24.95 ,3,$74.85 ,$48.66 ,Visa,Z.Q.|880-4240,No,No,42,Yes
+654908,4/14/2010,19:54,D218/FN,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,L.C.|880-6872,No,No,39,No
+654932,4/14/2010,12:42,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,U.O.|880-3720,No,No,36,Yes
+654979,4/17/2010,14:16,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,D.W.|880-7199,No,Yes,39,No
+655029,4/22/2010,13:39,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Discover,S.V.|880-5987,No,Yes,63,No
+655035,4/24/2010,17:16,L340/FS,340,Lego,Fire Trucks,6 and up,$34.95 ,2,$69.90 ,$39.84 ,Mastercard,V.W.|880-4523,Yes,Yes,38,No
+655083,4/25/2010,16:52,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,N.W.|880-6237,No,Yes,33,No
+655105,5/1/2010,15:27,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,U.W.|880-9683,No,No,33,No
+655105,5/1/2010,15:27,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,U.W.|880-9683,No,No,33,No
+655112,5/4/2010,14:47,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,H.B.|880-3254,Yes,Yes,31,No
+655124,5/6/2010,12:39,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Z.Q.|880-4240,No,No,45,No
+655165,5/30/2010,17:40,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,D.U.|880-2953,Yes,Yes,29,No
+655189,5/30/2010,16:21,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,B.B.|880-9330,No,No,49,No
+655232,5/30/2010,11:17,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,H.B.|880-3254,No,Yes,42,No
+655232,5/30/2010,11:17,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Cash,H.B.|880-3254,No,Yes,42,No
+655281,6/1/2010,15:27,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Mastercard,W.C.|880-4861,No,No,34,Yes
+655298,6/9/2010,16:28,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,V.W.|880-8599,No,No,36,No
+655323,6/13/2010,12:18,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,N.C.|880-3850,No,No,41,No
+655358,6/13/2010,19:16,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Cash,W.C.|880-4861,No,No,32,Yes
+655358,6/13/2010,19:16,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,W.C.|880-4861,No,No,32,Yes
+655373,6/21/2010,12:27,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,N.W.|880-6237,No,No,43,No
+655385,6/21/2010,16:05,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Mastercard,W.B.|880-9647,No,No,46,No
+655412,6/24/2010,11:39,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Mastercard,H.B.|880-3254,No,No,65,No
+655412,6/24/2010,11:39,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,H.B.|880-3254,No,No,65,No
+655420,6/26/2010,16:09,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Mastercard,A.U.|880-2167,No,No,56,Yes
+655467,7/4/2010,13:46,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,Y.P.|880-6894,No,No,34,Yes
+655505,7/9/2010,9:10,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,N.C.|880-3850,No,No,30,Yes
+655526,7/9/2010,12:57,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Mastercard,Z.Q.|880-4240,No,No,24,Yes
+655557,7/10/2010,16:00,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Visa,V.W.|880-8599,No,No,37,No
+655557,7/10/2010,16:00,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,V.W.|880-8599,No,No,37,No
+655570,7/18/2010,14:46,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,L.W.|880-4986,No,Yes,37,No
+655577,7/19/2010,11:24,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Mastercard,V.W.|880-8599,No,No,12,No
+655613,7/25/2010,12:04,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,L.W.|880-4986,No,No,64,No
+655623,7/29/2010,10:13,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.U.|880-2953,No,No,43,No
+655643,7/30/2010,11:49,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Gift Card,N.C.|880-3850,No,No,48,No
+655661,8/9/2010,16:56,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,C.X.|880-3590,Yes,Yes,34,No
+655661,8/9/2010,16:56,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,C.X.|880-3590,Yes,Yes,34,No
+655673,8/16/2010,15:42,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.U.|880-2953,No,No,50,Yes
+655676,8/18/2010,18:27,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.Z.|880-1179,No,No,38,No
+655676,8/18/2010,18:27,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Cash,D.Z.|880-1179,No,No,38,No
+655679,8/24/2010,16:49,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Gift Card,S.V.|880-5987,No,No,41,No
+655716,9/2/2010,16:19,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,U.W.|880-9683,Yes,No,21,No
+655731,9/5/2010,18:17,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Z.T.|880-7477,No,Yes,31,No
+655768,9/12/2010,14:41,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,H.B.|880-3254,No,No,40,No
+655793,9/12/2010,17:33,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Cash,A.U.|880-2167,Yes,Yes,48,No
+655793,9/12/2010,17:33,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,A.U.|880-2167,Yes,Yes,48,No
+655833,9/21/2010,18:36,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Discover,H.B.|880-3254,No,No,32,Yes
+655833,9/21/2010,18:36,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Discover,H.B.|880-3254,No,No,32,Yes
+655842,10/4/2010,13:49,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,D.W.|880-7199,No,No,44,No
+655845,10/14/2010,20:37,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,N.C.|880-3850,No,No,34,No
+655894,10/16/2010,16:01,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,D.S.|880-7532,No,No,40,No
+655933,10/16/2010,10:30,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Cash,U.W.|880-9683,No,No,31,No
+655965,10/21/2010,11:27,L196/AR,196,Lego,Antique Car,8 and up,$7.95 ,2,$15.90 ,$8.90 ,Visa,W.C.|880-4861,No,No,45,No
+655965,10/21/2010,11:27,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,W.C.|880-4861,No,No,45,No
+655976,11/1/2010,8:55,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,D.W.|880-7199,No,No,34,No
+656007,11/1/2010,20:07,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,Z.T.|880-7477,No,No,43,No
+656032,11/1/2010,19:55,L194/FY,194,Lego,Family,4 and up,$14.95 ,1,$14.95 ,$8.37 ,Visa,W.B.|880-9647,No,No,43,No
+656032,11/1/2010,19:55,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,W.B.|880-9647,No,No,43,No
+656077,11/2/2010,19:21,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,U.W.|880-9683,Yes,No,37,No
+656123,11/2/2010,15:27,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Gift Card,V.W.|880-8599,No,Yes,38,Yes
+656125,11/2/2010,11:49,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,U.O.|880-3720,No,No,37,No
+656125,11/2/2010,11:49,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,U.O.|880-3720,No,No,37,No
+656171,11/2/2010,15:14,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,3,$29.85 ,$13.44 ,Visa,S.V.|880-5987,No,No,50,No
+656171,11/2/2010,15:14,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,S.V.|880-5987,No,No,50,No
+656207,11/2/2010,13:25,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,N.C.|880-3850,No,No,50,No
+656246,11/2/2010,10:59,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,A.U.|880-2167,No,Yes,43,No
+656246,11/2/2010,10:59,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,A.U.|880-2167,No,Yes,43,No
+656287,11/3/2010,15:33,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,C.X.|880-3590,No,No,43,No
+656300,11/3/2010,17:16,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,N.C.|880-3850,No,No,27,No
+656314,11/3/2010,12:48,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,D.S.|880-7532,No,Yes,26,No
+656314,11/3/2010,12:48,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,5,$29.75 ,$15.45 ,Visa,D.S.|880-7532,No,Yes,26,No
+656314,11/3/2010,12:48,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,D.S.|880-7532,No,Yes,26,No
+656364,11/4/2010,16:56,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,C.X.|880-3590,No,No,38,Yes
+656380,11/5/2010,15:40,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,Z.T.|880-7477,No,No,29,No
+656416,11/5/2010,16:06,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Cash,C.X.|880-3590,Yes,No,14,No
+656416,11/5/2010,16:06,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,C.X.|880-3590,Yes,No,14,No
+656444,11/5/2010,15:19,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,B.Y.|880-6845,No,Yes,44,Yes
+656478,11/5/2010,20:51,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,W.B.|880-9647,No,Yes,32,No
+656495,11/5/2010,13:37,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Check,D.U.|880-2953,No,No,30,No
+656518,11/5/2010,13:12,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,B.B.|880-9330,No,No,19,No
+656533,11/5/2010,11:01,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,V.W.|880-4523,No,No,50,No
+656547,11/6/2010,20:00,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,D.U.|880-2953,Yes,No,11,No
+656588,11/6/2010,13:24,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,H.B.|880-3254,Yes,Yes,41,Yes
+656617,11/6/2010,10:52,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,A.U.|880-2167,No,No,38,No
+656617,11/6/2010,10:52,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,A.U.|880-2167,No,No,38,No
+656628,11/6/2010,10:15,L330/GN,330,Lego,Gas Station,8 and up,$32.95 ,1,$32.95 ,$19.11 ,Discover,U.O.|880-3720,No,No,37,No
+656637,11/6/2010,11:00,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,B.Y.|880-6845,No,No,30,No
+656648,11/6/2010,13:24,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,W.B.|880-9647,No,No,11,No
+656657,11/6/2010,15:04,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,U.W.|880-9683,No,No,22,No
+656657,11/6/2010,15:04,L212/SD,212,Lego,Scooter and Stand,6 and up,$4.95 ,1,$4.95 ,$2.23 ,Cash,U.W.|880-9683,No,No,22,No
+656657,11/6/2010,15:04,D218/FN,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,U.W.|880-9683,No,No,22,No
+656671,11/7/2010,13:21,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,S.V.|880-5987,No,No,37,No
+656692,11/8/2010,15:22,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,L.W.|880-4986,No,No,11,No
+656737,11/8/2010,19:04,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,D.S.|880-7532,No,No,40,No
+656757,11/8/2010,9:24,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,S.Y.|880-3139,No,No,36,Yes
+656757,11/8/2010,9:24,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,S.Y.|880-3139,No,No,36,Yes
+656770,11/9/2010,14:56,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,H.B.|880-3254,No,No,66,No
+656807,11/10/2010,11:28,L210/CS,210,Lego,Cowboys with Horses,6 and up,$9.45 ,1,$9.45 ,$4.63 ,Visa,P.N.|880-3021,No,No,48,No
+656822,11/10/2010,8:07,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,B.B.|880-9330,No,No,57,No
+656847,11/10/2010,12:25,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,S.Y.|880-3139,Yes,No,38,No
+656854,11/10/2010,11:12,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,V.W.|880-4523,No,Yes,31,No
+656893,11/10/2010,15:20,L212/SD,212,Lego,Scooter and Stand,6 and up,$4.95 ,1,$4.95 ,$2.23 ,Visa,U.O.|880-3720,No,No,45,No
+656931,11/11/2010,9:09,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,A.U.|880-2167,No,No,30,No
+656952,11/11/2010,11:40,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Cash,N.C.|880-3850,No,No,38,No
+656956,11/11/2010,12:48,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,V.W.|880-8599,No,No,24,No
+656991,11/11/2010,15:47,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,V.W.|880-4523,No,Yes,43,No
+656991,11/11/2010,15:47,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,V.W.|880-4523,No,Yes,43,No
+657009,11/11/2010,12:02,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,V.W.|880-8599,No,No,36,No
+657052,11/11/2010,19:45,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,B.B.|880-9330,No,Yes,34,Yes
+657052,11/11/2010,19:45,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Check,B.B.|880-9330,No,Yes,34,Yes
+657055,11/12/2010,11:37,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,D.S.|880-7532,No,No,36,No
+657055,11/12/2010,11:37,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,D.S.|880-7532,No,No,36,No
+657055,11/12/2010,11:37,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Check,D.S.|880-7532,No,No,36,No
+657093,11/12/2010,13:33,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Visa,Y.P.|880-6894,Yes,No,31,Yes
+657101,11/13/2010,9:53,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Gift Card,Z.T.|880-7477,Yes,No,41,Yes
+657140,11/13/2010,16:50,L340/FS,340,Lego,Fire Trucks,6 and up,$34.95 ,2,$69.90 ,$39.84 ,Visa,B.Y.|880-6845,No,No,34,No
+657140,11/13/2010,16:50,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,B.Y.|880-6845,No,No,34,No
+657187,11/13/2010,10:39,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,Z.Q.|880-4240,No,No,31,Yes
+657232,11/13/2010,20:11,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Visa,C.X.|880-3590,No,No,31,Yes
+657255,11/14/2010,17:18,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,U.O.|880-3720,No,No,27,Yes
+657291,11/14/2010,12:37,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,Z.T.|880-7477,No,No,49,No
+657306,11/14/2010,9:50,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,N.C.|880-3850,No,No,69,Yes
+657316,11/15/2010,16:45,L252/LR,255,Duplo,Farming Scene,7 and up,$24.95 ,1,$24.95 ,$16.22 ,Mastercard,P.N.|880-3021,No,No,20,No
+657320,11/15/2010,8:24,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.X.|880-9149,No,No,30,Yes
+657336,11/15/2010,8:29,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,H.B.|880-3254,No,No,37,Yes
+657336,11/15/2010,8:29,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,H.B.|880-3254,No,No,37,Yes
+657366,11/16/2010,8:44,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Mastercard,B.X.|880-9149,No,No,42,No
+657415,11/16/2010,11:59,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,S.V.|880-5987,No,No,41,Yes
+657415,11/16/2010,11:59,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,S.V.|880-5987,No,No,41,Yes
+657447,11/17/2010,13:42,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Mastercard,L.W.|880-4986,No,Yes,40,Yes
+657482,11/17/2010,10:13,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Discover,D.W.|880-7199,No,No,39,Yes
+657512,11/17/2010,11:34,D192/PN,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,N.C.|880-3850,No,No,31,No
+657529,11/17/2010,15:44,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Mastercard,B.Y.|880-6845,No,No,40,No
+657533,11/17/2010,16:32,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,B.B.|880-9330,Yes,No,38,No
+657533,11/17/2010,16:32,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Mastercard,B.B.|880-9330,Yes,No,38,No
+657533,11/17/2010,16:32,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.B.|880-9330,Yes,No,38,No
+657563,11/17/2010,13:18,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,D.W.|880-7199,No,No,25,No
+657591,11/18/2010,19:45,L194/FY,194,Lego,Family,4 and up,$14.95 ,1,$14.95 ,$8.37 ,Visa,W.C.|880-4861,No,No,26,No
+657607,11/18/2010,13:44,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,D.S.|880-7532,Yes,No,44,No
+657635,11/18/2010,13:05,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.U.|880-2953,No,No,50,No
+657663,11/19/2010,14:05,L330/GN,330,Lego,Gas Station,8 and up,$32.95 ,4,$131.80 ,$76.44 ,Visa,D.W.|880-7199,No,No,28,No
+657663,11/19/2010,14:05,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Visa,D.W.|880-7199,No,No,28,No
+657686,11/19/2010,12:06,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Mastercard,S.Y.|880-3139,No,No,60,No
+657703,11/20/2010,11:39,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Discover,U.W.|880-9683,No,No,31,No
+657712,11/20/2010,18:11,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,U.W.|880-9683,No,No,42,No
+657751,11/20/2010,10:41,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Mastercard,H.B.|880-3254,No,No,48,No
+657751,11/20/2010,10:41,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,H.B.|880-3254,No,No,48,No
+657769,11/20/2010,18:34,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,3,$29.85 ,$13.44 ,Cash,S.V.|880-5987,No,No,30,No
+657815,11/20/2010,12:12,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,P.N.|880-3021,No,No,44,No
+657839,11/21/2010,15:01,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Mastercard,N.W.|880-6237,No,No,35,No
+657858,11/21/2010,12:19,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,N.C.|880-3850,No,No,50,No
+657884,11/21/2010,15:37,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,V.W.|880-4523,No,No,30,No
+657887,11/21/2010,13:09,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,D.S.|880-7532,No,No,38,No
+657921,11/22/2010,8:58,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,Y.P.|880-6894,No,No,30,Yes
+657945,11/22/2010,13:39,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,S.Y.|880-3139,No,No,30,No
+657946,11/22/2010,19:31,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,3,$29.85 ,$13.44 ,Cash,V.W.|880-8599,No,No,31,No
+657946,11/22/2010,19:31,L330/GN,330,Lego,Gas Station,8 and up,$32.95 ,4,$131.80 ,$76.44 ,Cash,V.W.|880-8599,No,No,31,No
+657946,11/22/2010,19:31,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Cash,V.W.|880-8599,No,No,31,No
+657967,11/23/2010,13:55,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Mastercard,C.X.|880-3590,No,No,36,No
+657971,11/23/2010,10:58,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Discover,H.B.|880-3254,No,No,50,Yes
+657973,11/23/2010,10:14,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,B.Y.|880-6845,Yes,No,25,No
+657985,11/23/2010,15:29,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,U.W.|880-9683,No,No,30,No
+658025,11/23/2010,9:24,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,3,$29.85 ,$13.44 ,Discover,Z.T.|880-7477,No,No,44,No
+658054,11/24/2010,14:09,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,H.B.|880-3254,No,No,29,No
+658088,11/24/2010,16:13,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.U.|880-2953,No,No,38,No
+658095,11/24/2010,18:35,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Mastercard,L.C.|880-6872,Yes,Yes,30,Yes
+658095,11/24/2010,18:35,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,L.C.|880-6872,Yes,Yes,30,Yes
+658135,11/25/2010,16:22,L194/FY,194,Lego,Family,4 and up,$14.95 ,1,$14.95 ,$8.37 ,Visa,U.O.|880-3720,No,No,49,No
+658157,11/26/2010,16:59,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Visa,Z.Q.|880-4240,No,No,34,No
+658183,11/26/2010,15:34,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,B.X.|880-9149,No,No,39,No
+658183,11/26/2010,15:34,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Discover,B.X.|880-9149,No,No,39,No
+658221,11/26/2010,15:21,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,L.C.|880-6872,No,No,11,No
+658267,11/26/2010,18:50,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,N.C.|880-3850,No,No,34,No
+658278,11/26/2010,19:56,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,L.W.|880-4986,No,No,36,No
+658280,11/26/2010,11:15,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Discover,S.Y.|880-3139,No,No,32,No
+658330,11/26/2010,19:00,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Cash,U.O.|880-3720,No,No,36,No
+658361,11/27/2010,15:36,L330/GN,330,Lego,Gas Station,8 and up,$32.95 ,1,$32.95 ,$19.11 ,Visa,B.Y.|880-6845,No,Yes,47,No
+658387,11/27/2010,12:25,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Discover,N.W.|880-6237,No,No,32,No
+658404,11/27/2010,12:16,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,S.V.|880-5987,No,Yes,21,No
+658406,11/27/2010,10:55,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,B.Y.|880-6845,No,No,34,No
+658406,11/27/2010,10:55,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,B.Y.|880-6845,No,No,34,No
+658456,11/27/2010,14:18,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.S.|880-7532,No,No,66,No
+658456,11/27/2010,14:18,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,D.S.|880-7532,No,No,66,No
+658476,11/28/2010,15:13,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,V.W.|880-4523,No,No,34,No
+658499,11/28/2010,16:56,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,Z.T.|880-7477,No,No,39,No
+658521,11/28/2010,14:47,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,B.B.|880-9330,No,No,66,No
+658562,11/28/2010,13:23,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,D.U.|880-2953,No,No,34,No
+658599,11/28/2010,14:37,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,D.Z.|880-1179,No,Yes,41,No
+658628,11/28/2010,13:13,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,W.C.|880-4861,Yes,No,48,No
+658641,11/28/2010,16:19,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,B.Y.|880-6845,No,No,34,No
+658688,11/29/2010,13:30,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Cash,L.W.|880-4986,No,No,53,No
+658701,11/29/2010,11:31,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Mastercard,L.W.|880-4986,No,No,43,No
+658715,11/29/2010,12:50,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,5,$49.75 ,$22.40 ,Mastercard,V.W.|880-8599,No,No,39,No
+658755,11/29/2010,12:24,L210/CS,210,Lego,Cowboys with Horses,6 and up,$9.45 ,4,$37.80 ,$18.52 ,Visa,V.W.|880-8599,No,No,31,No
+658773,11/29/2010,11:57,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,A.U.|880-2167,No,No,34,No
+658817,11/30/2010,11:05,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,N.C.|880-3850,No,No,31,Yes
+658851,11/30/2010,14:02,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,W.C.|880-4861,No,No,36,No
+658858,11/30/2010,11:50,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,W.B.|880-9647,No,No,38,No
+658894,11/30/2010,12:46,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Cash,D.W.|880-7199,No,Yes,43,No
+658894,11/30/2010,12:46,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Cash,D.W.|880-7199,No,Yes,43,No
+658915,12/1/2010,18:03,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,S.V.|880-5987,No,No,39,No
+658942,12/1/2010,11:16,L330/GN,330,Lego,Gas Station,8 and up,$32.95 ,2,$65.90 ,$38.22 ,Visa,V.W.|880-8599,No,No,31,No
+658968,12/1/2010,11:03,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,4,$19.80 ,$10.08 ,Cash,S.V.|880-5987,No,No,27,Yes
+659005,12/1/2010,13:00,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,Y.P.|880-6894,No,No,36,No
+659005,12/1/2010,13:00,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Y.P.|880-6894,No,No,36,No
+659007,12/2/2010,13:16,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,N.W.|880-6237,Yes,Yes,30,No
+659039,12/2/2010,11:30,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Mastercard,N.W.|880-6237,Yes,No,55,Yes
+659065,12/2/2010,16:13,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,N.W.|880-6237,No,No,33,Yes
+659082,12/2/2010,12:18,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Check,D.W.|880-7199,No,No,39,Yes
+659106,12/2/2010,18:23,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Discover,H.B.|880-3254,No,No,34,No
+659126,12/2/2010,15:17,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.S.|880-7532,No,No,39,Yes
+659155,12/2/2010,16:20,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,Y.P.|880-6894,No,No,32,No
+659189,12/2/2010,14:21,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,Z.Q.|880-4240,No,No,47,No
+659211,12/3/2010,11:55,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,H.B.|880-3254,No,No,32,No
+659219,12/3/2010,13:50,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.X.|880-9149,No,No,25,Yes
+659261,12/3/2010,11:11,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,V.W.|880-4523,No,No,40,No
+659269,12/3/2010,13:43,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,P.N.|880-3021,No,No,44,Yes
+659277,12/4/2010,9:50,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,5,$29.75 ,$15.45 ,Cash,D.Z.|880-1179,Yes,No,73,Yes
+659294,12/4/2010,11:57,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,Y.P.|880-6894,No,No,25,No
+659294,12/4/2010,11:57,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,Y.P.|880-6894,No,No,25,No
+659343,12/5/2010,16:59,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,B.Y.|880-6845,No,No,47,No
+659353,12/5/2010,11:27,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,V.W.|880-8599,No,No,27,Yes
+659395,12/5/2010,14:23,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,C.X.|880-3590,No,No,48,No
+659439,12/5/2010,8:54,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,D.W.|880-7199,No,No,41,No
+659439,12/5/2010,8:54,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Mastercard,D.W.|880-7199,No,No,41,No
+659457,12/5/2010,16:34,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.S.|880-7532,No,No,25,Yes
+659478,12/6/2010,16:59,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,L.C.|880-6872,No,No,42,No
+659504,12/6/2010,14:31,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Cash,S.Y.|880-3139,No,No,29,No
+659552,12/6/2010,13:47,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Discover,L.C.|880-6872,No,No,30,No
+659552,12/6/2010,13:47,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,L.C.|880-6872,No,No,30,No
+659591,12/6/2010,16:34,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,P.N.|880-3021,No,No,58,No
+659591,12/6/2010,16:34,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,P.N.|880-3021,No,No,58,No
+659616,12/6/2010,17:54,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,Z.T.|880-7477,No,No,35,No
+659629,12/6/2010,11:29,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,L.W.|880-4986,No,No,37,No
+659646,12/6/2010,12:03,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,5,$49.75 ,$22.40 ,Mastercard,H.B.|880-3254,No,No,27,No
+659651,12/6/2010,16:55,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.W.|880-7199,No,No,38,Yes
+659692,12/6/2010,14:40,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,W.B.|880-9647,Yes,No,38,Yes
+659699,12/6/2010,14:00,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,V.W.|880-8599,No,No,53,Yes
+659700,12/6/2010,11:45,D218/FN,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Mastercard,P.N.|880-3021,No,No,34,No
+659720,12/8/2010,16:45,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,P.N.|880-3021,No,No,18,No
+659720,12/8/2010,16:45,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,P.N.|880-3021,No,No,18,No
+659731,12/8/2010,11:16,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,Y.P.|880-6894,Yes,No,43,No
+659750,12/9/2010,15:01,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,L.W.|880-4986,No,No,27,No
+659750,12/9/2010,15:01,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,L.W.|880-4986,No,No,27,No
+659750,12/9/2010,15:01,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,L.W.|880-4986,No,No,27,No
+659759,12/9/2010,13:17,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,S.Y.|880-3139,No,No,30,No
+659765,12/9/2010,14:23,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,Z.Q.|880-4240,Yes,No,27,No
+659788,12/10/2010,10:32,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Check,H.B.|880-3254,No,No,7,Yes
+659807,12/10/2010,13:36,D192/PN,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,B.Y.|880-6845,No,No,50,No
+659830,12/10/2010,10:07,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,W.C.|880-4861,No,No,31,Yes
+659835,12/10/2010,16:01,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Visa,W.B.|880-9647,No,No,44,No
+659855,12/10/2010,18:27,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,U.O.|880-3720,No,No,67,No
+659882,12/10/2010,13:40,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,Z.T.|880-7477,Yes,Yes,46,No
+659895,12/11/2010,11:38,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,L.C.|880-6872,No,No,25,No
+659916,12/12/2010,14:19,L210/CS,210,Lego,Cowboys with Horses,6 and up,$9.45 ,1,$9.45 ,$4.63 ,Visa,C.X.|880-3590,No,No,42,Yes
+659916,12/12/2010,14:19,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,C.X.|880-3590,No,No,42,Yes
+659936,12/13/2010,11:38,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,L.C.|880-6872,No,No,38,No
+659976,12/13/2010,12:45,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,W.C.|880-4861,No,No,25,No
+659976,12/13/2010,12:45,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,W.C.|880-4861,No,No,25,No
+659976,12/13/2010,12:45,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,W.C.|880-4861,No,No,25,No
+660004,12/13/2010,16:22,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,W.B.|880-9647,Yes,No,43,No
+660020,12/14/2010,20:35,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,5,$49.75 ,$22.40 ,Gift Card,B.X.|880-9149,No,No,67,No
+660045,12/14/2010,13:21,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Cash,B.X.|880-9149,No,No,34,Yes
+660045,12/14/2010,13:21,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,B.X.|880-9149,No,No,34,Yes
+660066,12/14/2010,11:16,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Mastercard,D.U.|880-2953,No,No,34,No
+660066,12/14/2010,11:16,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,D.U.|880-2953,No,No,34,No
+660066,12/14/2010,11:16,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,D.U.|880-2953,No,No,34,No
+660097,12/14/2010,14:00,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,B.X.|880-9149,Yes,Yes,39,No
+660117,12/15/2010,13:02,D192/PN,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,S.V.|880-5987,Yes,No,35,No
+660150,12/15/2010,10:01,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,B.B.|880-9330,No,No,38,No
+660150,12/15/2010,10:01,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Gift Card,B.B.|880-9330,No,No,38,No
+660165,12/15/2010,13:51,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,B.B.|880-9330,No,No,41,No
+660208,12/15/2010,15:15,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,Z.Q.|880-4240,No,No,39,No
+660241,12/15/2010,12:40,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,L.C.|880-6872,No,Yes,41,Yes
+660241,12/15/2010,12:40,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,L.C.|880-6872,No,Yes,41,Yes
+660275,12/16/2010,11:27,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,W.B.|880-9647,No,No,44,Yes
+660317,12/16/2010,13:17,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,U.W.|880-9683,No,No,38,No
+660317,12/16/2010,13:17,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,U.W.|880-9683,No,No,38,No
+660341,12/16/2010,10:45,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,L.W.|880-4986,No,No,40,No
+660374,12/16/2010,15:52,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,U.O.|880-3720,No,Yes,40,No
+660374,12/16/2010,15:52,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Mastercard,U.O.|880-3720,No,Yes,40,No
+660413,12/16/2010,13:23,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Z.T.|880-7477,No,No,38,No
+660413,12/16/2010,13:23,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Z.T.|880-7477,No,No,38,No
+660459,12/16/2010,15:48,D199/SR,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,S.V.|880-5987,No,No,35,No
+660490,12/16/2010,10:12,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Cash,L.W.|880-4986,No,No,34,Yes
+660503,12/16/2010,20:53,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,C.X.|880-3590,No,No,29,No
+660544,12/16/2010,15:32,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Cash,Z.Q.|880-4240,No,No,40,No
+660556,12/16/2010,12:57,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.W.|880-6237,No,No,41,No
+660562,12/17/2010,15:18,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,H.B.|880-3254,Yes,No,32,No
+660563,12/17/2010,11:56,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,B.B.|880-9330,No,No,36,No
+660571,12/17/2010,10:11,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,U.O.|880-3720,No,No,40,No
+660571,12/17/2010,10:11,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,U.O.|880-3720,No,No,40,No
+660576,12/18/2010,15:12,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,N.W.|880-6237,No,No,30,Yes
+660585,12/18/2010,12:06,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,3,$29.85 ,$13.44 ,Mastercard,B.Y.|880-6845,No,Yes,40,No
+660585,12/18/2010,12:06,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Mastercard,B.Y.|880-6845,No,Yes,40,No
+660633,12/18/2010,11:17,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,S.V.|880-5987,No,No,36,No
+660633,12/18/2010,11:17,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,S.V.|880-5987,No,No,36,No
+660668,12/18/2010,12:24,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Visa,B.Y.|880-6845,No,No,42,No
+660668,12/18/2010,12:24,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,B.Y.|880-6845,No,No,42,No
+660685,12/19/2010,12:01,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Gift Card,N.W.|880-6237,No,No,31,No
+660685,12/19/2010,12:01,L340/FS,340,Lego,Fire Trucks,6 and up,$34.95 ,2,$69.90 ,$39.84 ,Gift Card,N.W.|880-6237,No,No,31,No
+660685,12/19/2010,12:01,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,N.W.|880-6237,No,No,31,No
+660707,12/20/2010,12:01,D192/PN,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,A.U.|880-2167,No,No,30,No
+660757,12/20/2010,12:59,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,B.Y.|880-6845,No,No,51,Yes
+660805,12/21/2010,13:11,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,D.S.|880-7532,No,No,45,No
+660845,12/21/2010,15:29,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,Z.T.|880-7477,No,No,38,No
+660893,12/21/2010,10:17,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Visa,Z.Q.|880-4240,No,No,27,Yes
+660926,12/21/2010,16:24,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,D.W.|880-7199,No,No,39,Yes
+660964,12/21/2010,8:19,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,H.B.|880-3254,No,No,48,No
+660989,12/21/2010,15:51,L196/AR,196,Lego,Antique Car,8 and up,$7.95 ,3,$23.85 ,$13.35 ,Cash,V.W.|880-8599,No,No,73,No
+660994,12/21/2010,12:54,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,C.X.|880-3590,No,No,31,No
+661002,12/22/2010,15:02,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,L.W.|880-4986,No,No,35,No
+661044,12/22/2010,8:52,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,W.C.|880-4861,No,No,40,Yes
+661083,12/22/2010,18:15,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,A.U.|880-2167,No,No,48,Yes
+661083,12/22/2010,18:15,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,A.U.|880-2167,No,No,48,Yes
+661083,12/22/2010,18:15,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Cash,A.U.|880-2167,No,No,48,Yes
+661121,12/23/2010,12:52,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,S.V.|880-5987,No,No,37,No
+661154,12/24/2010,16:18,L210/CS,210,Lego,Cowboys with Horses,6 and up,$9.45 ,1,$9.45 ,$4.63 ,Gift Card,V.W.|880-4523,No,No,35,No
+661195,12/24/2010,10:36,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,B.X.|880-9149,No,No,49,No
+661234,12/24/2010,13:44,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.U.|880-2953,No,No,54,No
+661236,12/24/2010,13:19,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,P.N.|880-3021,Yes,No,42,No
+661251,12/25/2010,16:49,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,B.Y.|880-6845,No,No,50,No
+661251,12/25/2010,16:49,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Visa,B.Y.|880-6845,No,No,50,No
+661286,12/25/2010,12:55,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,U.O.|880-3720,No,No,39,No
+661326,12/25/2010,14:31,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,V.W.|880-4523,No,No,11,Yes
+661368,12/25/2010,19:24,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,H.B.|880-3254,No,No,36,Yes
+661387,12/25/2010,14:20,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,5,$29.75 ,$15.45 ,Cash,S.V.|880-5987,No,No,43,No
+661403,12/25/2010,14:46,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,D.U.|880-2953,No,Yes,39,No
+661431,12/25/2010,15:06,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Mastercard,S.Y.|880-3139,No,No,39,Yes
+661475,12/25/2010,10:13,L252/LR,255,Duplo,Farming Scene,7 and up,$24.95 ,4,$99.80 ,$64.88 ,Mastercard,W.B.|880-9647,Yes,No,42,No
+661481,12/31/2010,12:12,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,P.N.|880-3021,No,No,33,Yes
+661528,1/5/2011,11:54,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,N.W.|880-6237,No,No,50,No
+661558,1/6/2011,10:06,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,P.N.|880-3021,Yes,Yes,33,No
+661568,1/21/2011,16:55,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,W.B.|880-9647,No,No,39,No
+661602,1/23/2011,13:59,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,U.W.|880-9683,No,No,16,No
+661635,1/31/2011,8:40,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,Z.T.|880-7477,No,No,32,No
+661651,2/8/2011,15:25,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.X.|880-9149,No,No,31,No
+661651,2/8/2011,15:25,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,B.X.|880-9149,No,No,31,No
+661664,2/22/2011,15:43,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,S.V.|880-5987,No,No,25,No
+661664,2/22/2011,15:43,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,S.V.|880-5987,No,No,25,No
+661705,2/28/2011,15:21,D218/FN,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Gift Card,D.Z.|880-1179,No,No,40,No
+661721,2/28/2011,14:45,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,5,$49.75 ,$22.40 ,Visa,A.U.|880-2167,No,Yes,55,No
+661734,3/12/2011,13:06,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,Z.T.|880-7477,No,No,47,No
+661758,3/18/2011,12:53,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Mastercard,B.Y.|880-6845,No,No,61,No
+661758,3/18/2011,12:53,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,B.Y.|880-6845,No,No,61,No
+661772,3/25/2011,9:26,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,2,$9.90 ,$5.04 ,Cash,N.C.|880-3850,No,No,43,No
+661774,4/19/2011,9:30,L252/LR,255,Duplo,Farming Scene,7 and up,$24.95 ,1,$24.95 ,$16.22 ,Visa,Y.P.|880-6894,No,No,32,Yes
+661786,4/19/2011,15:30,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Check,S.Y.|880-3139,No,No,25,No
+661786,4/19/2011,15:30,L210/CS,210,Lego,Cowboys with Horses,6 and up,$9.45 ,2,$18.90 ,$9.26 ,Check,S.Y.|880-3139,No,No,25,No
+661817,4/28/2011,18:00,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,W.C.|880-4861,No,No,32,No
+661861,5/7/2011,12:36,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,V.W.|880-8599,No,No,37,No
+661908,5/8/2011,14:52,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Discover,P.N.|880-3021,No,No,27,No
+661933,5/8/2011,13:28,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Cash,B.B.|880-9330,No,No,57,No
+661972,5/14/2011,14:13,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,L.W.|880-4986,No,No,38,No
+662019,5/17/2011,12:21,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,U.O.|880-3720,No,No,38,No
+662019,5/17/2011,12:21,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Mastercard,U.O.|880-3720,No,No,38,No
+662065,5/24/2011,12:55,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,P.N.|880-3021,No,No,38,No
+662065,5/24/2011,12:55,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,P.N.|880-3021,No,No,38,No
+662065,5/24/2011,12:55,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,P.N.|880-3021,No,No,38,No
+662077,5/29/2011,16:27,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,B.B.|880-9330,No,No,43,Yes
+662078,5/30/2011,14:21,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,D.S.|880-7532,No,No,12,No
+662095,6/2/2011,18:13,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.C.|880-3850,No,No,47,No
+662095,6/2/2011,18:13,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,N.C.|880-3850,No,No,47,No
+662140,6/16/2011,9:16,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,Y.P.|880-6894,No,No,37,No
+662189,6/20/2011,8:01,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Check,D.W.|880-7199,Yes,No,34,No
+662221,6/23/2011,15:45,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,A.U.|880-2167,No,No,43,No
+662242,6/25/2011,8:20,L212/SD,212,Lego,Scooter and Stand,6 and up,$4.95 ,2,$9.90 ,$4.46 ,Visa,Z.Q.|880-4240,No,No,39,No
+662272,6/26/2011,11:42,L210/CS,210,Lego,Cowboys with Horses,6 and up,$9.45 ,1,$9.45 ,$4.63 ,Visa,L.W.|880-4986,No,Yes,44,No
+662272,6/26/2011,11:42,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,L.W.|880-4986,No,Yes,44,No
+662313,6/27/2011,15:50,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,3,$29.85 ,$13.44 ,Visa,B.X.|880-9149,No,No,31,No
+662321,6/27/2011,9:15,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,5,$29.75 ,$15.45 ,Visa,W.C.|880-4861,No,No,40,No
+662333,7/3/2011,13:39,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Discover,N.C.|880-3850,No,Yes,22,No
+662367,7/3/2011,19:03,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,V.W.|880-4523,No,No,47,No
+662408,7/18/2011,16:54,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,V.W.|880-4523,No,No,35,No
+662436,7/20/2011,11:17,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,N.W.|880-6237,No,No,36,No
+662462,7/22/2011,13:50,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,S.V.|880-5987,No,No,32,Yes
+662467,7/25/2011,15:39,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,P.N.|880-3021,Yes,No,25,No
+662496,7/26/2011,14:05,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,D.Z.|880-1179,No,No,30,No
+662514,8/13/2011,12:37,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,U.O.|880-3720,Yes,Yes,38,No
+662560,8/17/2011,11:47,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,Z.T.|880-7477,No,Yes,49,No
+662571,8/19/2011,14:42,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,A.U.|880-2167,No,No,32,No
+662586,8/19/2011,16:00,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Gift Card,W.B.|880-9647,No,No,51,Yes
+662599,8/23/2011,14:36,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,U.W.|880-9683,No,No,44,No
+662613,8/23/2011,14:25,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Gift Card,N.W.|880-6237,Yes,Yes,18,No
+662613,8/23/2011,14:25,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,N.W.|880-6237,Yes,Yes,18,No
+662663,8/25/2011,8:21,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,D.U.|880-2953,No,No,43,No
+662663,8/25/2011,8:21,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,D.U.|880-2953,No,No,43,No
+662693,8/30/2011,15:29,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,5,$29.75 ,$15.45 ,Visa,D.Z.|880-1179,No,No,27,No
+662695,9/1/2011,11:31,L340/FS,340,Lego,Fire Trucks,6 and up,$34.95 ,2,$69.90 ,$39.84 ,Visa,N.W.|880-6237,Yes,No,49,No
+662729,9/3/2011,15:09,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,Z.T.|880-7477,No,No,31,No
+662751,9/3/2011,10:57,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,5,$49.75 ,$22.40 ,Cash,U.W.|880-9683,No,Yes,43,Yes
+662775,9/12/2011,13:20,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,5,$49.75 ,$22.40 ,Check,S.Y.|880-3139,No,No,35,Yes
+662824,9/16/2011,14:01,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,W.C.|880-4861,No,No,49,No
+662870,9/17/2011,11:14,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,W.C.|880-4861,No,No,47,Yes
+662870,9/17/2011,11:14,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,W.C.|880-4861,No,No,47,Yes
+662883,9/18/2011,12:06,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,5,$49.75 ,$22.40 ,Cash,W.C.|880-4861,No,No,36,No
+662923,9/18/2011,19:06,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,W.C.|880-4861,No,No,34,No
+662964,9/29/2011,15:36,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,D.U.|880-2953,No,No,40,Yes
+662977,9/29/2011,15:48,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,D.U.|880-2953,Yes,No,44,No
+662993,10/6/2011,9:22,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Mastercard,D.U.|880-2953,No,No,33,Yes
+663020,10/13/2011,15:22,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,V.W.|880-8599,Yes,No,44,Yes
+663036,10/25/2011,16:52,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,L.C.|880-6872,No,No,22,No
+663053,10/29/2011,13:27,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,Z.T.|880-7477,No,No,38,No
+663053,10/29/2011,13:27,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,Z.T.|880-7477,No,No,38,No
+663082,11/1/2011,16:25,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,B.B.|880-9330,No,No,36,No
+663082,11/1/2011,16:25,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.B.|880-9330,No,No,36,No
+663115,11/1/2011,12:15,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Visa,P.N.|880-3021,Yes,Yes,40,Yes
+663129,11/1/2011,10:21,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Discover,P.N.|880-3021,No,Yes,35,No
+663148,11/1/2011,11:49,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,C.X.|880-3590,No,No,27,No
+663187,11/1/2011,13:06,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,S.Y.|880-3139,No,No,34,No
+663196,11/2/2011,15:22,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Gift Card,U.W.|880-9683,No,No,31,No
+663196,11/2/2011,15:22,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Gift Card,U.W.|880-9683,No,No,31,No
+663229,11/2/2011,15:28,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,S.Y.|880-3139,No,No,42,No
+663268,11/2/2011,16:46,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Visa,V.W.|880-8599,Yes,No,43,Yes
+663268,11/2/2011,16:46,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,V.W.|880-8599,Yes,No,43,Yes
+663301,11/2/2011,17:51,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,L.W.|880-4986,Yes,No,34,No
+663314,11/2/2011,8:52,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Discover,Z.T.|880-7477,No,No,33,No
+663314,11/2/2011,8:52,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,Z.T.|880-7477,No,No,33,No
+663314,11/2/2011,8:52,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Discover,Z.T.|880-7477,No,No,33,No
+663351,11/3/2011,14:49,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.C.|880-3850,No,No,33,No
+663366,11/3/2011,15:47,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,Y.P.|880-6894,No,No,39,Yes
+663384,11/4/2011,9:04,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,A.U.|880-2167,Yes,No,42,No
+663384,11/4/2011,9:04,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,A.U.|880-2167,Yes,No,42,No
+663425,11/5/2011,19:01,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,H.B.|880-3254,No,No,32,No
+663455,11/5/2011,16:04,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.S.|880-7532,No,No,40,No
+663495,11/5/2011,15:06,D218/FN,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,U.W.|880-9683,No,No,30,No
+663506,11/6/2011,12:39,L252/LR,255,Duplo,Farming Scene,7 and up,$24.95 ,2,$49.90 ,$32.44 ,Gift Card,B.B.|880-9330,No,No,33,No
+663521,11/6/2011,15:57,L330/GN,330,Lego,Gas Station,8 and up,$32.95 ,1,$32.95 ,$19.11 ,Cash,V.W.|880-4523,No,No,27,No
+663523,11/6/2011,16:17,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,Z.T.|880-7477,No,Yes,45,No
+663523,11/6/2011,16:17,L217/SN,255,Duplo,Farming Scene,7 and up,$24.95 ,1,$24.95 ,$16.22 ,Check,Z.T.|880-7477,No,Yes,45,No
+663561,11/6/2011,12:00,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Cash,L.W.|880-4986,No,No,45,No
+663570,11/6/2011,10:55,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,S.V.|880-5987,No,No,39,No
+663600,11/6/2011,11:11,L196/AR,196,Lego,Antique Car,8 and up,$7.95 ,2,$15.90 ,$8.90 ,Mastercard,S.Y.|880-3139,No,No,39,No
+663612,11/6/2011,14:01,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,L.W.|880-4986,Yes,No,30,No
+663653,11/6/2011,16:05,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Discover,N.C.|880-3850,No,No,44,No
+663694,11/6/2011,10:19,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,C.X.|880-3590,No,Yes,49,No
+663723,11/7/2011,12:18,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,H.B.|880-3254,Yes,No,37,No
+663756,11/7/2011,17:04,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,P.N.|880-3021,No,No,38,No
+663799,11/8/2011,12:05,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,N.C.|880-3850,No,No,49,No
+663800,11/9/2011,9:56,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,Y.P.|880-6894,No,No,32,No
+663822,11/10/2011,12:24,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,D.U.|880-2953,No,Yes,34,No
+663854,11/10/2011,12:25,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,B.B.|880-9330,No,No,48,No
+663889,11/10/2011,15:59,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Cash,V.W.|880-8599,No,No,43,No
+663919,11/10/2011,9:55,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.C.|880-3850,No,No,43,No
+663919,11/10/2011,9:55,L252/LR,255,Duplo,Farming Scene,7 and up,$24.95 ,1,$24.95 ,$16.22 ,Visa,N.C.|880-3850,No,No,43,No
+663951,11/10/2011,14:20,L217/SN,255,Duplo,Farming Scene,7 and up,$24.95 ,1,$24.95 ,$16.22 ,Visa,Z.T.|880-7477,No,No,41,No
+663971,11/10/2011,15:26,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,N.W.|880-6237,Yes,No,32,No
+663977,11/10/2011,8:46,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Z.T.|880-7477,No,Yes,46,No
+664005,11/11/2011,14:55,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Discover,H.B.|880-3254,No,No,30,No
+664006,11/11/2011,16:44,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,W.C.|880-4861,No,No,37,No
+664016,11/12/2011,11:18,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Discover,N.W.|880-6237,No,No,38,No
+664016,11/12/2011,11:18,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Discover,N.W.|880-6237,No,No,38,No
+664047,11/12/2011,15:06,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,W.C.|880-4861,No,No,43,No
+664082,11/12/2011,16:13,D199/SR,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,N.C.|880-3850,Yes,No,43,Yes
+664111,11/12/2011,11:13,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,N.C.|880-3850,No,No,35,No
+664126,11/13/2011,13:39,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Cash,L.C.|880-6872,No,No,33,No
+664135,11/13/2011,20:33,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,B.Y.|880-6845,Yes,Yes,48,No
+664158,11/13/2011,9:10,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Mastercard,Z.T.|880-7477,No,No,30,No
+664200,11/14/2011,12:49,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,S.V.|880-5987,No,No,60,No
+664203,11/14/2011,15:40,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,U.O.|880-3720,No,No,35,No
+664218,11/14/2011,10:00,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,D.S.|880-7532,No,No,30,Yes
+664268,11/15/2011,9:58,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Visa,S.V.|880-5987,No,Yes,31,No
+664303,11/15/2011,19:51,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,S.Y.|880-3139,No,No,31,Yes
+664322,11/16/2011,8:48,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,L.C.|880-6872,No,No,37,No
+664322,11/16/2011,8:48,L194/FY,194,Lego,Family,4 and up,$14.95 ,4,$59.80 ,$33.48 ,Mastercard,L.C.|880-6872,No,No,37,No
+664369,11/16/2011,15:55,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,D.Z.|880-1179,No,No,32,No
+664388,11/17/2011,14:50,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,S.Y.|880-3139,No,No,46,Yes
+664415,11/17/2011,16:27,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Mastercard,V.W.|880-4523,No,No,66,No
+664436,11/17/2011,12:12,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,W.C.|880-4861,No,No,37,No
+664436,11/17/2011,12:12,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,W.C.|880-4861,No,No,37,No
+664478,11/17/2011,13:00,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,S.Y.|880-3139,No,No,29,No
+664520,11/18/2011,15:58,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.W.|880-6237,Yes,Yes,29,Yes
+664522,11/18/2011,12:01,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,D.W.|880-7199,No,No,46,No
+664571,11/18/2011,13:46,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,S.Y.|880-3139,No,No,38,No
+664571,11/18/2011,13:46,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,S.Y.|880-3139,No,No,38,No
+664616,11/19/2011,14:12,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Cash,V.W.|880-8599,Yes,Yes,21,No
+664616,11/19/2011,14:12,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Cash,V.W.|880-8599,Yes,Yes,21,No
+664616,11/19/2011,14:12,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,V.W.|880-8599,Yes,Yes,21,No
+664659,11/20/2011,20:44,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,C.X.|880-3590,No,Yes,28,No
+664659,11/20/2011,20:44,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,C.X.|880-3590,No,Yes,28,No
+664707,11/21/2011,15:26,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Discover,U.W.|880-9683,No,No,21,No
+664731,11/21/2011,12:49,L194/FY,194,Lego,Family,4 and up,$14.95 ,1,$14.95 ,$8.37 ,Visa,L.C.|880-6872,No,Yes,25,No
+664741,11/21/2011,16:49,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Discover,S.Y.|880-3139,No,No,50,No
+664756,11/21/2011,18:16,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,L.C.|880-6872,No,No,49,No
+664782,11/21/2011,11:51,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Discover,C.X.|880-3590,No,No,66,No
+664782,11/21/2011,11:51,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Discover,C.X.|880-3590,No,No,66,No
+664787,11/22/2011,11:55,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,P.N.|880-3021,No,Yes,50,No
+664789,11/22/2011,14:01,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.B.|880-9330,Yes,No,45,No
+664789,11/22/2011,14:01,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.B.|880-9330,Yes,No,45,No
+664807,11/22/2011,17:46,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Cash,D.Z.|880-1179,No,No,50,Yes
+664856,11/22/2011,9:18,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,2,$9.90 ,$5.04 ,Cash,D.W.|880-7199,No,No,39,Yes
+664884,11/22/2011,11:17,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,U.W.|880-9683,No,No,28,No
+664898,11/22/2011,10:15,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,A.U.|880-2167,No,No,26,Yes
+664948,11/22/2011,16:14,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Cash,D.W.|880-7199,No,No,37,Yes
+664948,11/22/2011,16:14,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,D.W.|880-7199,No,No,37,Yes
+664958,11/22/2011,12:47,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Cash,B.X.|880-9149,No,No,37,No
+664989,11/22/2011,13:02,D192/PN,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,W.C.|880-4861,No,No,27,No
+664989,11/22/2011,13:02,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,W.C.|880-4861,No,No,27,No
+665036,11/23/2011,15:52,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,B.Y.|880-6845,No,Yes,34,No
+665052,11/23/2011,10:32,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,V.W.|880-4523,Yes,No,33,No
+665100,11/23/2011,15:52,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,U.O.|880-3720,No,No,11,No
+665111,11/23/2011,12:53,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,D.Z.|880-1179,Yes,Yes,36,Yes
+665119,11/24/2011,19:00,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,N.C.|880-3850,Yes,Yes,35,No
+665119,11/24/2011,19:00,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,N.C.|880-3850,Yes,Yes,35,No
+665161,11/24/2011,14:38,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,P.N.|880-3021,Yes,Yes,72,No
+665186,11/25/2011,13:14,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,2,$9.90 ,$5.04 ,Visa,Z.T.|880-7477,No,No,46,Yes
+665213,11/25/2011,11:33,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Discover,W.B.|880-9647,No,No,43,No
+665255,11/26/2011,16:23,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,V.W.|880-4523,Yes,No,31,No
+665264,11/26/2011,14:11,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,P.N.|880-3021,No,No,35,No
+665295,11/26/2011,14:12,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,D.U.|880-2953,No,No,38,No
+665337,11/26/2011,12:58,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Discover,U.W.|880-9683,No,Yes,30,Yes
+665337,11/26/2011,12:58,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,5,$29.75 ,$15.45 ,Discover,U.W.|880-9683,No,Yes,30,Yes
+665367,11/27/2011,15:14,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Check,N.C.|880-3850,No,No,31,No
+665367,11/27/2011,15:14,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,4,$19.80 ,$10.08 ,Check,N.C.|880-3850,No,No,31,No
+665379,11/27/2011,9:33,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,P.N.|880-3021,No,No,44,No
+665405,11/28/2011,16:58,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,Z.T.|880-7477,No,No,37,No
+665409,11/28/2011,15:24,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,A.U.|880-2167,No,No,33,No
+665449,11/28/2011,11:48,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,U.W.|880-9683,No,No,43,No
+665449,11/28/2011,11:48,L217/SN,255,Duplo,Farming Scene,7 and up,$24.95 ,2,$49.90 ,$32.44 ,Mastercard,U.W.|880-9683,No,No,43,No
+665488,11/28/2011,14:26,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,A.U.|880-2167,Yes,No,43,Yes
+665519,11/28/2011,16:07,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,S.V.|880-5987,No,No,38,No
+665520,11/29/2011,20:40,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Visa,U.W.|880-9683,No,No,69,Yes
+665569,11/29/2011,15:54,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Gift Card,S.V.|880-5987,No,No,40,Yes
+665605,11/29/2011,10:00,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Check,Z.T.|880-7477,No,No,40,Yes
+665621,11/29/2011,13:23,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,U.O.|880-3720,No,No,34,Yes
+665647,11/29/2011,16:55,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,V.W.|880-8599,No,No,27,No
+665658,11/29/2011,11:40,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Mastercard,Y.P.|880-6894,No,No,36,Yes
+665658,11/29/2011,11:40,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,Y.P.|880-6894,No,No,36,Yes
+665663,11/29/2011,20:09,L217/SN,255,Duplo,Farming Scene,7 and up,$24.95 ,1,$24.95 ,$16.22 ,Visa,D.U.|880-2953,No,No,40,No
+665711,11/29/2011,13:22,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.U.|880-2953,No,No,32,No
+665724,11/30/2011,11:36,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Z.Q.|880-4240,Yes,Yes,20,No
+665727,11/30/2011,11:07,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.U.|880-2953,No,No,27,No
+665727,11/30/2011,11:07,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.U.|880-2953,No,No,27,No
+665727,11/30/2011,11:07,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.U.|880-2953,No,No,27,No
+665765,12/1/2011,9:33,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,U.O.|880-3720,No,No,36,Yes
+665815,12/1/2011,11:19,D199/SR,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,V.W.|880-8599,No,No,61,No
+665815,12/1/2011,11:19,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Mastercard,V.W.|880-8599,No,No,61,No
+665840,12/1/2011,15:49,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Discover,A.U.|880-2167,No,No,30,No
+665840,12/1/2011,15:49,D218/FN,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Discover,A.U.|880-2167,No,No,30,No
+665857,12/1/2011,11:08,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,B.X.|880-9149,Yes,No,20,No
+665902,12/1/2011,13:06,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,S.Y.|880-3139,No,No,32,No
+665932,12/2/2011,13:07,L252/LR,255,Duplo,Farming Scene,7 and up,$24.95 ,1,$24.95 ,$16.22 ,Visa,B.B.|880-9330,No,No,37,No
+665961,12/2/2011,12:33,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,B.B.|880-9330,No,Yes,43,No
+665977,12/2/2011,13:17,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.U.|880-2953,No,No,37,No
+666002,12/3/2011,13:59,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.W.|880-7199,Yes,Yes,36,No
+666047,12/3/2011,10:55,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,D.W.|880-7199,No,No,16,No
+666086,12/3/2011,16:54,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,W.B.|880-9647,No,No,53,No
+666094,12/3/2011,13:42,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Mastercard,B.B.|880-9330,No,No,32,Yes
+666100,12/3/2011,15:39,L194/FY,194,Lego,Family,4 and up,$14.95 ,2,$29.90 ,$16.74 ,Cash,H.B.|880-3254,No,No,38,No
+666110,12/3/2011,10:28,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,N.C.|880-3850,No,Yes,34,No
+666116,12/3/2011,13:44,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Discover,P.N.|880-3021,No,No,47,Yes
+666137,12/4/2011,13:08,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,U.O.|880-3720,No,No,36,No
+666187,12/4/2011,13:56,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Visa,H.B.|880-3254,No,No,36,No
+666187,12/4/2011,13:56,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,H.B.|880-3254,No,No,36,No
+666232,12/4/2011,17:35,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Mastercard,D.Z.|880-1179,No,No,27,No
+666232,12/4/2011,17:35,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Mastercard,D.Z.|880-1179,No,No,27,No
+666232,12/4/2011,17:35,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.Z.|880-1179,No,No,27,No
+666245,12/4/2011,15:30,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Discover,A.U.|880-2167,No,No,26,No
+666294,12/5/2011,20:54,L252/LR,255,Duplo,Farming Scene,7 and up,$24.95 ,4,$99.80 ,$64.88 ,Mastercard,Y.P.|880-6894,No,No,39,No
+666344,12/5/2011,14:33,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,U.W.|880-9683,No,No,35,Yes
+666381,12/6/2011,12:06,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Check,P.N.|880-3021,No,No,43,No
+666418,12/6/2011,14:03,L330/GN,330,Lego,Gas Station,8 and up,$32.95 ,1,$32.95 ,$19.11 ,Cash,Z.T.|880-7477,No,No,36,Yes
+666436,12/6/2011,20:37,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.W.|880-6237,Yes,No,31,No
+666474,12/6/2011,13:45,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,D.W.|880-7199,No,No,37,No
+666486,12/6/2011,11:10,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,B.X.|880-9149,No,No,44,No
+666486,12/6/2011,11:10,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.X.|880-9149,No,No,44,No
+666514,12/7/2011,20:36,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.Z.|880-1179,No,No,31,No
+666514,12/7/2011,20:36,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,D.Z.|880-1179,No,No,31,No
+666514,12/7/2011,20:36,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.Z.|880-1179,No,No,31,No
+666559,12/7/2011,16:42,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,N.C.|880-3850,No,Yes,31,No
+666599,12/7/2011,11:42,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Discover,H.B.|880-3254,No,No,25,Yes
+666599,12/7/2011,11:42,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Discover,H.B.|880-3254,No,No,25,Yes
+666623,12/7/2011,16:54,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Visa,B.B.|880-9330,No,No,45,No
+666623,12/7/2011,16:54,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,B.B.|880-9330,No,No,45,No
+666628,12/8/2011,16:04,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Visa,S.Y.|880-3139,No,No,35,No
+666647,12/8/2011,15:10,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,S.Y.|880-3139,No,No,32,No
+666657,12/9/2011,12:22,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,N.W.|880-6237,No,No,50,No
+666662,12/9/2011,13:11,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Cash,D.U.|880-2953,No,No,25,No
+666678,12/9/2011,13:08,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,S.V.|880-5987,No,No,38,No
+666721,12/9/2011,16:41,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,W.C.|880-4861,No,No,28,Yes
+666727,12/9/2011,10:51,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,H.B.|880-3254,No,Yes,43,No
+666749,12/10/2011,14:46,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,A.U.|880-2167,No,No,50,No
+666798,12/10/2011,19:34,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,4,$19.80 ,$10.08 ,Visa,W.C.|880-4861,No,No,24,No
+666814,12/10/2011,18:25,D199/SR,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Gift Card,W.B.|880-9647,No,Yes,46,Yes
+666844,12/10/2011,12:04,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,V.W.|880-8599,No,No,30,No
+666888,12/10/2011,18:46,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,B.Y.|880-6845,No,No,43,No
+666918,12/11/2011,15:00,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,5,$29.75 ,$15.45 ,Visa,B.X.|880-9149,No,No,50,No
+666948,12/11/2011,10:49,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,Z.T.|880-7477,No,Yes,32,No
+666976,12/11/2011,13:13,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.C.|880-3850,No,Yes,47,No
+667021,12/12/2011,11:02,L217/SN,255,Duplo,Farming Scene,7 and up,$24.95 ,4,$99.80 ,$64.88 ,Cash,B.X.|880-9149,No,No,32,Yes
+667056,12/13/2011,16:13,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Z.T.|880-7477,No,No,36,No
+667092,12/13/2011,10:48,L194/FY,194,Lego,Family,4 and up,$14.95 ,1,$14.95 ,$8.37 ,Gift Card,V.W.|880-8599,Yes,Yes,43,No
+667113,12/13/2011,14:23,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,L.C.|880-6872,No,No,67,No
+667122,12/13/2011,16:53,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,Y.P.|880-6894,No,No,41,No
+667149,12/14/2011,14:16,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,B.X.|880-9149,No,No,41,No
+667195,12/14/2011,15:52,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,S.V.|880-5987,Yes,No,29,No
+667195,12/14/2011,15:52,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,S.V.|880-5987,Yes,No,29,No
+667235,12/14/2011,15:00,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,B.Y.|880-6845,Yes,No,35,No
+667284,12/14/2011,12:23,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,L.W.|880-4986,No,No,33,No
+667284,12/14/2011,12:23,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Cash,L.W.|880-4986,No,No,33,No
+667323,12/14/2011,13:06,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,V.W.|880-8599,No,No,30,Yes
+667323,12/14/2011,13:06,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,V.W.|880-8599,No,No,30,Yes
+667372,12/15/2011,14:01,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,W.B.|880-9647,No,No,42,No
+667387,12/15/2011,18:57,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,Z.T.|880-7477,Yes,No,29,No
+667425,12/16/2011,10:55,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,W.C.|880-4861,No,No,40,No
+667462,12/16/2011,16:09,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,V.W.|880-4523,No,No,31,No
+667462,12/16/2011,16:09,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,V.W.|880-4523,No,No,31,No
+667483,12/16/2011,18:38,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,S.Y.|880-3139,No,No,36,Yes
+667502,12/16/2011,10:45,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,H.B.|880-3254,No,No,30,No
+667541,12/17/2011,12:57,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Visa,B.Y.|880-6845,No,No,57,No
+667545,12/17/2011,16:41,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,N.W.|880-6237,No,No,19,No
+667580,12/17/2011,15:53,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Discover,W.C.|880-4861,No,No,31,No
+667628,12/17/2011,16:18,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,N.C.|880-3850,No,No,31,No
+667629,12/17/2011,16:30,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Y.P.|880-6894,No,No,17,No
+667629,12/17/2011,16:30,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,Y.P.|880-6894,No,No,17,No
+667654,12/18/2011,11:51,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Mastercard,L.C.|880-6872,No,No,51,No
+667661,12/18/2011,13:43,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.X.|880-9149,Yes,No,38,No
+667700,12/18/2011,14:15,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,1,$4.95 ,$2.52 ,Visa,U.W.|880-9683,No,No,27,No
+667706,12/18/2011,10:39,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,P.N.|880-3021,No,No,32,Yes
+667706,12/18/2011,10:39,L210/CS,210,Lego,Cowboys with Horses,6 and up,$9.45 ,2,$18.90 ,$9.26 ,Cash,P.N.|880-3021,No,No,32,Yes
+667727,12/19/2011,13:39,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Mastercard,B.Y.|880-6845,Yes,No,27,No
+667750,12/19/2011,15:38,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,5,$49.75 ,$22.40 ,Gift Card,D.Z.|880-1179,No,No,43,No
+667750,12/19/2011,15:38,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Gift Card,D.Z.|880-1179,No,No,43,No
+667750,12/19/2011,15:38,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Gift Card,D.Z.|880-1179,No,No,43,No
+667798,12/19/2011,10:10,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Mastercard,N.C.|880-3850,No,No,31,No
+667798,12/19/2011,10:10,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,N.C.|880-3850,No,No,31,No
+667828,12/19/2011,14:16,L212/SD,212,Lego,Scooter and Stand,6 and up,$4.95 ,2,$9.90 ,$4.46 ,Check,H.B.|880-3254,No,No,38,No
+667828,12/19/2011,14:16,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,H.B.|880-3254,No,No,38,No
+667840,12/21/2011,13:28,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Visa,S.V.|880-5987,No,No,73,No
+667840,12/21/2011,13:28,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,S.V.|880-5987,No,No,73,No
+667857,12/21/2011,15:18,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Z.T.|880-7477,No,No,44,No
+667861,12/21/2011,13:17,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.U.|880-2953,No,No,6,No
+667871,12/21/2011,15:08,L252/LR,255,Duplo,Farming Scene,7 and up,$24.95 ,2,$49.90 ,$32.44 ,Check,L.C.|880-6872,Yes,No,33,No
+667895,12/21/2011,15:59,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Cash,D.U.|880-2953,No,No,29,No
+667932,12/21/2011,14:26,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,W.C.|880-4861,No,No,35,No
+667932,12/21/2011,14:26,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Discover,W.C.|880-4861,No,No,35,No
+667953,12/21/2011,12:27,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,A.U.|880-2167,No,No,50,No
+667993,12/22/2011,10:07,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Cash,Y.P.|880-6894,No,No,39,No
+667995,12/22/2011,12:19,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,U.O.|880-3720,No,No,43,No
+668018,12/22/2011,15:47,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,V.W.|880-4523,No,No,68,No
+668018,12/22/2011,15:47,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,V.W.|880-4523,No,No,68,No
+668052,12/22/2011,15:36,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,Z.Q.|880-4240,Yes,No,21,No
+668052,12/22/2011,15:36,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Discover,Z.Q.|880-4240,Yes,No,21,No
+668095,12/23/2011,12:54,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Cash,D.Z.|880-1179,No,No,32,No
+668095,12/23/2011,12:54,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,D.Z.|880-1179,No,No,32,No
+668130,12/23/2011,13:53,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,U.O.|880-3720,No,No,39,No
+668145,12/23/2011,13:56,L210/CS,210,Lego,Cowboys with Horses,6 and up,$9.45 ,4,$37.80 ,$18.52 ,Check,B.B.|880-9330,No,No,41,No
+668156,12/23/2011,19:21,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Mastercard,U.O.|880-3720,No,No,45,No
+668184,12/23/2011,8:19,L217/SN,255,Duplo,Farming Scene,7 and up,$24.95 ,1,$24.95 ,$16.22 ,Visa,A.U.|880-2167,No,No,36,No
+668207,12/24/2011,11:00,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Discover,P.N.|880-3021,No,No,30,No
+668216,12/24/2011,15:58,L196/AR,196,Lego,Antique Car,8 and up,$7.95 ,1,$7.95 ,$4.45 ,Visa,P.N.|880-3021,No,No,34,No
+668232,12/24/2011,14:10,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,L.W.|880-4986,No,No,31,No
+668232,12/24/2011,14:10,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,L.W.|880-4986,No,No,31,No
+668232,12/24/2011,14:10,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,L.W.|880-4986,No,No,31,No
+668261,12/25/2011,14:12,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,B.X.|880-9149,No,No,34,No
+668261,12/25/2011,14:12,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,B.X.|880-9149,No,No,34,No
+668293,12/25/2011,14:41,D199/SR,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,Z.T.|880-7477,No,No,44,No
+668305,12/25/2011,11:47,L212/SD,212,Lego,Scooter and Stand,6 and up,$4.95 ,1,$4.95 ,$2.23 ,Visa,A.U.|880-2167,No,No,28,No
+668326,12/25/2011,19:46,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,S.Y.|880-3139,Yes,Yes,34,No
+668376,1/2/2012,20:10,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,S.V.|880-5987,No,No,37,No
+668384,1/2/2012,9:32,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,C.X.|880-3590,No,No,27,No
+668384,1/2/2012,9:32,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Visa,C.X.|880-3590,No,No,27,No
+668391,1/8/2012,13:18,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,W.B.|880-9647,No,No,29,No
+668431,1/13/2012,12:46,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,5,$29.75 ,$15.45 ,Cash,D.S.|880-7532,No,No,32,Yes
+668451,1/19/2012,18:06,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,L.C.|880-6872,No,No,41,No
+668451,1/19/2012,18:06,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,L.C.|880-6872,No,No,41,No
+668489,1/21/2012,15:27,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.U.|880-2953,No,No,36,No
+668499,1/29/2012,14:21,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,Z.T.|880-7477,Yes,No,33,No
+668499,1/29/2012,14:21,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Z.T.|880-7477,Yes,No,33,No
+668546,2/12/2012,9:36,L217/SN,255,Duplo,Farming Scene,7 and up,$24.95 ,2,$49.90 ,$32.44 ,Discover,V.W.|880-4523,No,No,33,No
+668564,2/13/2012,17:55,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,Y.P.|880-6894,No,No,35,No
+668585,2/14/2012,18:39,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,3,$29.85 ,$13.44 ,Gift Card,Y.P.|880-6894,No,No,39,Yes
+668585,2/14/2012,18:39,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Gift Card,Y.P.|880-6894,No,No,39,Yes
+668615,3/3/2012,12:16,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,S.Y.|880-3139,No,No,35,No
+668615,3/3/2012,12:16,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,S.Y.|880-3139,No,No,35,No
+668653,3/16/2012,16:55,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,H.B.|880-3254,No,No,40,No
+668653,3/16/2012,16:55,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,H.B.|880-3254,No,No,40,No
+668653,3/16/2012,16:55,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,H.B.|880-3254,No,No,40,No
+668660,3/24/2012,20:19,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,C.X.|880-3590,No,No,61,No
+668681,4/3/2012,14:31,L252/LR,255,Duplo,Farming Scene,7 and up,$24.95 ,1,$24.95 ,$16.22 ,Visa,W.B.|880-9647,No,No,32,No
+668691,4/10/2012,20:49,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,S.Y.|880-3139,Yes,No,59,Yes
+668692,4/12/2012,20:51,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Check,A.U.|880-2167,No,No,37,Yes
+668692,4/12/2012,20:51,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,A.U.|880-2167,No,No,37,Yes
+668708,4/21/2012,20:20,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.U.|880-2953,No,No,70,No
+668714,4/22/2012,11:37,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Cash,N.W.|880-6237,No,No,23,No
+668743,4/23/2012,10:40,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,Y.P.|880-6894,No,No,35,No
+668752,4/23/2012,17:21,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Discover,D.Z.|880-1179,No,No,41,No
+668752,4/23/2012,17:21,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,D.Z.|880-1179,No,No,41,No
+668801,5/13/2012,15:10,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,D.U.|880-2953,No,No,27,No
+668804,5/19/2012,12:32,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,S.Y.|880-3139,No,No,29,No
+668804,5/19/2012,12:32,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Visa,S.Y.|880-3139,No,No,29,No
+668829,5/24/2012,13:25,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,B.X.|880-9149,No,No,34,No
+668848,6/8/2012,9:46,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,A.U.|880-2167,No,No,42,No
+668883,6/9/2012,11:39,L194/FY,194,Lego,Family,4 and up,$14.95 ,2,$29.90 ,$16.74 ,Gift Card,V.W.|880-8599,No,No,38,No
+668903,6/9/2012,8:28,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,L.W.|880-4986,No,Yes,21,No
+668943,6/11/2012,10:28,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.C.|880-3850,No,No,35,No
+668982,6/12/2012,15:45,L252/LR,255,Duplo,Farming Scene,7 and up,$24.95 ,1,$24.95 ,$16.22 ,Visa,A.U.|880-2167,No,No,47,Yes
+668997,6/23/2012,15:00,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,S.V.|880-5987,No,No,33,No
+669021,6/23/2012,17:43,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Mastercard,B.X.|880-9149,Yes,No,35,No
+669042,6/25/2012,13:12,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,D.U.|880-2953,No,No,59,No
+669080,7/2/2012,16:00,D199/SR,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.C.|880-3850,No,No,37,Yes
+669090,7/2/2012,16:20,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,P.N.|880-3021,No,Yes,31,No
+669121,8/5/2012,15:28,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Check,W.C.|880-4861,No,No,50,No
+669126,8/14/2012,15:18,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,S.Y.|880-3139,No,No,42,No
+669126,8/14/2012,15:18,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,S.Y.|880-3139,No,No,42,No
+669138,9/4/2012,15:18,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,S.Y.|880-3139,No,No,36,Yes
+669163,9/6/2012,13:15,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,D.W.|880-7199,Yes,No,39,Yes
+669163,9/6/2012,13:15,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Check,D.W.|880-7199,Yes,No,39,Yes
+669181,9/9/2012,17:49,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,W.C.|880-4861,No,No,46,No
+669197,9/10/2012,16:52,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,A.U.|880-2167,No,No,39,No
+669197,9/10/2012,16:52,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,A.U.|880-2167,No,No,39,No
+669198,9/18/2012,12:08,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Gift Card,Z.T.|880-7477,No,No,34,No
+669198,9/18/2012,12:08,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Gift Card,Z.T.|880-7477,No,No,34,No
+669208,9/28/2012,14:22,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.W.|880-7199,No,No,30,No
+669238,10/7/2012,12:24,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,V.W.|880-8599,No,No,36,No
+669260,10/9/2012,12:06,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,W.B.|880-9647,Yes,No,20,No
+669260,10/9/2012,12:06,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,W.B.|880-9647,Yes,No,20,No
+669277,10/16/2012,13:38,L194/FY,194,Lego,Family,4 and up,$14.95 ,1,$14.95 ,$8.37 ,Cash,D.U.|880-2953,No,No,23,No
+669306,10/16/2012,16:23,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,B.Y.|880-6845,No,No,45,No
+669318,10/16/2012,16:13,L194/FY,194,Lego,Family,4 and up,$14.95 ,1,$14.95 ,$8.37 ,Visa,D.S.|880-7532,No,Yes,29,Yes
+669320,10/22/2012,16:08,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,H.B.|880-3254,No,No,24,No
+669353,10/22/2012,14:39,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Mastercard,D.U.|880-2953,No,No,60,No
+669400,10/22/2012,13:42,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,H.B.|880-3254,No,No,36,No
+669400,10/22/2012,13:42,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,H.B.|880-3254,No,No,36,No
+669401,10/30/2012,16:02,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,N.W.|880-6237,No,Yes,44,No
+669401,10/30/2012,16:02,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.W.|880-6237,No,Yes,44,No
+669451,11/1/2012,20:07,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,U.W.|880-9683,No,No,29,No
+669469,11/1/2012,12:52,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,B.B.|880-9330,No,No,36,No
+669482,11/1/2012,11:05,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,L.W.|880-4986,No,No,37,No
+669482,11/1/2012,11:05,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,L.W.|880-4986,No,No,37,No
+669529,11/2/2012,11:18,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Y.P.|880-6894,No,No,30,No
+669560,11/3/2012,12:12,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,1,$4.95 ,$2.52 ,Visa,L.C.|880-6872,No,No,21,No
+669602,11/4/2012,19:37,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,U.W.|880-9683,No,No,74,No
+669617,11/4/2012,10:26,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,C.X.|880-3590,No,No,32,No
+669649,11/4/2012,12:35,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.W.|880-7199,No,No,24,No
+669652,11/4/2012,11:37,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Cash,V.W.|880-8599,No,No,34,No
+669659,11/4/2012,14:15,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,Y.P.|880-6894,No,No,35,Yes
+669698,11/5/2012,13:49,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,D.Z.|880-1179,No,No,56,No
+669703,11/5/2012,14:51,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,W.C.|880-4861,No,No,27,No
+669722,11/5/2012,16:54,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Z.Q.|880-4240,No,No,35,No
+669722,11/5/2012,16:54,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,Z.Q.|880-4240,No,No,35,No
+669764,11/6/2012,16:21,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.W.|880-6237,No,No,39,No
+669764,11/6/2012,16:21,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,N.W.|880-6237,No,No,39,No
+669783,11/6/2012,18:03,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,H.B.|880-3254,No,No,40,No
+669804,11/6/2012,12:00,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,N.C.|880-3850,No,No,48,No
+669805,11/6/2012,9:12,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,3,$17.85 ,$9.27 ,Mastercard,N.C.|880-3850,No,No,30,Yes
+669813,11/6/2012,12:17,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,D.Z.|880-1179,No,Yes,38,No
+669813,11/6/2012,12:17,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,D.Z.|880-1179,No,Yes,38,No
+669819,11/6/2012,14:50,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,S.Y.|880-3139,Yes,Yes,27,No
+669860,11/6/2012,17:30,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Discover,D.W.|880-7199,No,No,31,No
+669905,11/6/2012,14:43,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,V.W.|880-8599,No,No,39,No
+669905,11/6/2012,14:43,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Cash,V.W.|880-8599,No,No,39,No
+669931,11/7/2012,9:34,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Visa,S.Y.|880-3139,No,No,44,Yes
+669981,11/7/2012,13:27,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,Y.P.|880-6894,No,No,27,No
+670014,11/7/2012,14:53,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Cash,B.X.|880-9149,No,No,42,No
+670015,11/7/2012,12:56,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,D.Z.|880-1179,Yes,No,41,No
+670038,11/7/2012,16:05,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,W.C.|880-4861,No,Yes,31,Yes
+670081,11/8/2012,12:10,L330/GN,330,Lego,Gas Station,8 and up,$32.95 ,1,$32.95 ,$19.11 ,Cash,S.Y.|880-3139,No,No,59,Yes
+670120,11/8/2012,16:49,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Mastercard,S.V.|880-5987,No,No,37,No
+670143,11/8/2012,13:21,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,S.Y.|880-3139,No,No,30,No
+670166,11/8/2012,19:22,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,S.V.|880-5987,No,No,31,No
+670166,11/8/2012,19:22,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,S.V.|880-5987,No,No,31,No
+670172,11/8/2012,11:02,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,L.W.|880-4986,No,No,21,No
+670172,11/8/2012,11:02,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,L.W.|880-4986,No,No,21,No
+670207,11/9/2012,16:27,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,5,$49.75 ,$22.40 ,Mastercard,D.S.|880-7532,Yes,No,38,Yes
+670207,11/9/2012,16:27,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Mastercard,D.S.|880-7532,Yes,No,38,Yes
+670245,11/9/2012,12:06,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Mastercard,P.N.|880-3021,No,No,33,Yes
+670275,11/10/2012,12:30,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.B.|880-9330,No,No,33,No
+670311,11/10/2012,14:13,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Cash,N.W.|880-6237,Yes,No,68,No
+670311,11/10/2012,14:13,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,N.W.|880-6237,Yes,No,68,No
+670358,11/10/2012,14:07,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,S.V.|880-5987,No,No,47,No
+670364,11/10/2012,17:38,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,Z.T.|880-7477,No,No,29,Yes
+670394,11/10/2012,16:19,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.S.|880-7532,No,No,36,No
+670398,11/10/2012,13:16,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,B.X.|880-9149,No,No,30,No
+670436,11/11/2012,15:13,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,V.W.|880-8599,No,Yes,49,No
+670473,11/11/2012,8:42,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,D.S.|880-7532,No,No,12,Yes
+670487,11/11/2012,17:22,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,N.W.|880-6237,No,No,65,No
+670529,11/12/2012,11:15,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,N.C.|880-3850,No,No,34,No
+670575,11/12/2012,8:40,L196/AR,196,Lego,Antique Car,8 and up,$7.95 ,1,$7.95 ,$4.45 ,Gift Card,B.X.|880-9149,No,No,29,No
+670601,11/12/2012,13:06,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,W.B.|880-9647,No,No,40,No
+670634,11/12/2012,13:21,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,L.W.|880-4986,No,No,36,No
+670682,11/12/2012,14:21,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,Y.P.|880-6894,No,No,47,No
+670688,11/13/2012,15:36,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,S.Y.|880-3139,Yes,No,33,Yes
+670716,11/13/2012,8:01,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,N.W.|880-6237,No,Yes,37,No
+670723,11/13/2012,21:00,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,U.W.|880-9683,No,No,11,No
+670735,11/13/2012,19:02,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,D.U.|880-2953,No,Yes,35,No
+670743,11/14/2012,14:39,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,Y.P.|880-6894,Yes,No,34,No
+670790,11/15/2012,12:21,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Cash,D.S.|880-7532,No,No,37,Yes
+670827,11/15/2012,18:52,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,L.C.|880-6872,No,Yes,40,No
+670870,11/15/2012,20:03,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,V.W.|880-4523,No,No,27,No
+670918,11/15/2012,15:52,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,N.C.|880-3850,No,No,33,Yes
+670953,11/16/2012,11:22,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,W.B.|880-9647,No,No,17,No
+670977,11/16/2012,13:22,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,W.B.|880-9647,No,No,53,No
+670980,11/16/2012,12:52,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Check,D.S.|880-7532,Yes,Yes,30,No
+670980,11/16/2012,12:52,L196/AR,196,Lego,Antique Car,8 and up,$7.95 ,1,$7.95 ,$4.45 ,Check,D.S.|880-7532,Yes,Yes,30,No
+670991,11/16/2012,20:13,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,B.B.|880-9330,No,No,37,Yes
+671036,11/16/2012,11:39,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.U.|880-2953,No,No,31,Yes
+671069,11/17/2012,16:34,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Mastercard,Z.T.|880-7477,No,No,26,No
+671089,11/17/2012,13:33,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,P.N.|880-3021,No,No,36,No
+671089,11/17/2012,13:33,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Cash,P.N.|880-3021,No,No,36,No
+671089,11/17/2012,13:33,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Cash,P.N.|880-3021,No,No,36,No
+671138,11/17/2012,16:19,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Gift Card,H.B.|880-3254,No,No,49,No
+671140,11/17/2012,12:59,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,D.Z.|880-1179,No,No,31,Yes
+671182,11/18/2012,11:40,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,U.W.|880-9683,No,No,40,No
+671199,11/18/2012,20:03,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,S.Y.|880-3139,No,No,38,No
+671199,11/18/2012,20:03,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,S.Y.|880-3139,No,No,38,No
+671199,11/18/2012,20:03,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,S.Y.|880-3139,No,No,38,No
+671199,11/18/2012,20:03,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,S.Y.|880-3139,No,No,38,No
+671210,11/19/2012,16:20,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,S.V.|880-5987,No,No,51,No
+671256,11/19/2012,16:43,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Check,Y.P.|880-6894,No,No,11,Yes
+671256,11/19/2012,16:43,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Check,Y.P.|880-6894,No,No,11,Yes
+671264,11/19/2012,13:21,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,N.C.|880-3850,No,No,48,Yes
+671283,11/20/2012,13:19,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,V.W.|880-8599,No,No,53,No
+671323,11/21/2012,13:10,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,1,$4.95 ,$2.52 ,Visa,W.B.|880-9647,Yes,No,31,No
+671359,11/21/2012,14:55,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,N.W.|880-6237,No,No,59,No
+671382,11/21/2012,13:10,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,C.X.|880-3590,No,No,30,No
+671409,11/22/2012,11:23,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,S.Y.|880-3139,No,No,60,No
+671457,11/22/2012,17:24,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,L.C.|880-6872,No,No,39,Yes
+671492,11/22/2012,14:31,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Visa,W.B.|880-9647,No,Yes,35,No
+671494,11/22/2012,14:25,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,W.B.|880-9647,No,No,38,No
+671517,11/22/2012,16:29,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,3,$29.85 ,$13.44 ,Cash,L.C.|880-6872,No,Yes,43,No
+671549,11/22/2012,16:19,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,Z.Q.|880-4240,No,No,34,Yes
+671563,11/23/2012,8:02,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,Z.T.|880-7477,No,No,38,No
+671563,11/23/2012,8:02,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,Z.T.|880-7477,No,No,38,No
+671588,11/23/2012,15:27,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,U.O.|880-3720,No,No,40,Yes
+671605,11/23/2012,13:07,L196/AR,196,Lego,Antique Car,8 and up,$7.95 ,1,$7.95 ,$4.45 ,Visa,S.V.|880-5987,No,No,31,No
+671637,11/23/2012,16:42,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,C.X.|880-3590,Yes,No,40,No
+671647,11/24/2012,15:16,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,C.X.|880-3590,No,No,38,Yes
+671685,11/24/2012,20:36,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Gift Card,A.U.|880-2167,No,No,34,No
+671700,11/25/2012,16:58,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.U.|880-2953,No,No,27,No
+671700,11/25/2012,16:58,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,D.U.|880-2953,No,No,27,No
+671735,11/25/2012,16:58,D199/SR,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Visa,B.B.|880-9330,No,No,21,Yes
+671753,11/25/2012,15:46,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,U.W.|880-9683,No,No,19,No
+671753,11/25/2012,15:46,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,U.W.|880-9683,No,No,19,No
+671799,11/26/2012,19:18,D192/PN,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Discover,H.B.|880-3254,No,No,40,No
+671801,11/27/2012,10:40,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Mastercard,D.Z.|880-1179,No,No,38,No
+671801,11/27/2012,10:40,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.Z.|880-1179,No,No,38,No
+671816,11/27/2012,12:58,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,V.W.|880-8599,No,No,28,Yes
+671858,11/27/2012,12:21,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Cash,B.B.|880-9330,No,No,6,No
+671901,11/28/2012,19:34,L196/AR,196,Lego,Antique Car,8 and up,$7.95 ,1,$7.95 ,$4.45 ,Cash,V.W.|880-4523,No,No,37,No
+671923,11/28/2012,13:38,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,4,$39.80 ,$17.92 ,Cash,U.O.|880-3720,No,No,28,Yes
+671935,11/28/2012,14:10,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,H.B.|880-3254,No,No,46,No
+671984,11/28/2012,16:39,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Cash,Y.P.|880-6894,No,No,40,No
+671992,11/28/2012,18:58,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Discover,S.Y.|880-3139,No,No,37,Yes
+672040,11/28/2012,10:25,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,Z.Q.|880-4240,Yes,No,23,Yes
+672078,11/28/2012,15:08,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Mastercard,H.B.|880-3254,No,No,31,Yes
+672091,11/28/2012,12:32,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Cash,W.C.|880-4861,No,No,42,No
+672118,11/28/2012,18:26,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,L.W.|880-4986,No,No,39,No
+672118,11/28/2012,18:26,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Gift Card,L.W.|880-4986,No,No,39,No
+672134,11/28/2012,20:01,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,D.Z.|880-1179,No,No,44,No
+672134,11/28/2012,20:01,L212/SD,212,Lego,Scooter and Stand,6 and up,$4.95 ,4,$19.80 ,$8.92 ,Visa,D.Z.|880-1179,No,No,44,No
+672134,11/28/2012,20:01,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.Z.|880-1179,No,No,44,No
+672184,11/29/2012,20:58,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,U.O.|880-3720,No,No,32,No
+672184,11/29/2012,20:58,L210/CS,210,Lego,Cowboys with Horses,6 and up,$9.45 ,2,$18.90 ,$9.26 ,Visa,U.O.|880-3720,No,No,32,No
+672193,11/29/2012,11:24,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,C.X.|880-3590,No,No,48,No
+672236,11/29/2012,16:10,L340/FS,340,Lego,Fire Trucks,6 and up,$34.95 ,1,$34.95 ,$19.92 ,Visa,N.W.|880-6237,No,No,46,Yes
+672276,11/29/2012,13:03,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,N.C.|880-3850,No,No,30,No
+672300,11/30/2012,8:30,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,S.V.|880-5987,No,No,14,No
+672305,11/30/2012,14:19,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Mastercard,Z.T.|880-7477,No,No,30,No
+672354,11/30/2012,16:04,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,Y.P.|880-6894,No,No,30,Yes
+672359,11/30/2012,10:43,L210/CS,210,Lego,Cowboys with Horses,6 and up,$9.45 ,2,$18.90 ,$9.26 ,Visa,V.W.|880-8599,No,No,30,No
+672390,12/1/2012,11:32,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,3,$29.85 ,$13.44 ,Gift Card,U.O.|880-3720,No,No,38,Yes
+672390,12/1/2012,11:32,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Gift Card,U.O.|880-3720,No,No,38,Yes
+672403,12/1/2012,11:57,L196/AR,196,Lego,Antique Car,8 and up,$7.95 ,1,$7.95 ,$4.45 ,Visa,Z.Q.|880-4240,No,No,26,No
+672419,12/1/2012,20:01,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,5,$49.75 ,$22.40 ,Visa,H.B.|880-3254,No,No,36,No
+672464,12/1/2012,13:03,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,Z.T.|880-7477,No,No,35,No
+672464,12/1/2012,13:03,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,Z.T.|880-7477,No,No,35,No
+672500,12/3/2012,9:21,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,5,$29.75 ,$15.45 ,Visa,D.Z.|880-1179,No,Yes,33,Yes
+672540,12/3/2012,12:37,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Gift Card,D.W.|880-7199,No,No,26,No
+672545,12/3/2012,16:15,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,B.B.|880-9330,No,Yes,47,No
+672545,12/3/2012,16:15,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,B.B.|880-9330,No,Yes,47,No
+672587,12/4/2012,9:40,L212/SD,212,Lego,Scooter and Stand,6 and up,$4.95 ,4,$19.80 ,$8.92 ,Check,L.C.|880-6872,No,No,38,No
+672616,12/4/2012,18:58,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Cash,D.Z.|880-1179,No,No,30,No
+672616,12/4/2012,18:58,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.Z.|880-1179,No,No,30,No
+672618,12/4/2012,15:12,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Discover,U.W.|880-9683,No,No,35,Yes
+672630,12/4/2012,12:08,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,S.Y.|880-3139,Yes,No,31,No
+672630,12/4/2012,12:08,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,S.Y.|880-3139,Yes,No,31,No
+672630,12/4/2012,12:08,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,S.Y.|880-3139,Yes,No,31,No
+672646,12/4/2012,9:16,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,C.X.|880-3590,No,No,48,Yes
+672657,12/5/2012,8:37,L330/GN,330,Lego,Gas Station,8 and up,$32.95 ,1,$32.95 ,$19.11 ,Cash,S.Y.|880-3139,No,No,38,No
+672698,12/5/2012,19:25,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,2,$9.90 ,$5.04 ,Mastercard,C.X.|880-3590,No,No,38,No
+672701,12/5/2012,14:37,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,W.B.|880-9647,No,No,63,Yes
+672701,12/5/2012,14:37,D198/LX,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Mastercard,W.B.|880-9647,No,No,63,Yes
+672726,12/5/2012,15:44,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,D.S.|880-7532,Yes,Yes,39,No
+672756,12/5/2012,12:55,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,A.U.|880-2167,No,No,22,No
+672798,12/5/2012,13:47,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,W.B.|880-9647,No,No,55,No
+672798,12/5/2012,13:47,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,W.B.|880-9647,No,No,55,No
+672809,12/6/2012,15:58,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Mastercard,B.Y.|880-6845,No,No,32,Yes
+672831,12/6/2012,15:28,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.Y.|880-6845,No,No,43,No
+672839,12/6/2012,14:13,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,H.B.|880-3254,No,No,27,No
+672856,12/6/2012,16:36,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,V.W.|880-4523,No,No,28,Yes
+672869,12/6/2012,10:40,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,A.U.|880-2167,No,No,41,No
+672904,12/7/2012,15:30,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Cash,V.W.|880-4523,No,No,25,No
+672950,12/7/2012,14:18,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,B.B.|880-9330,No,No,39,No
+673000,12/7/2012,11:10,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,V.W.|880-4523,No,No,40,No
+673009,12/7/2012,14:21,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,H.B.|880-3254,No,No,44,No
+673025,12/8/2012,15:43,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Mastercard,L.W.|880-4986,No,No,44,No
+673059,12/8/2012,11:01,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.S.|880-7532,No,Yes,32,No
+673099,12/9/2012,16:57,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,S.V.|880-5987,No,No,38,Yes
+673143,12/9/2012,12:28,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Gift Card,Z.T.|880-7477,No,No,36,No
+673145,12/9/2012,15:39,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,L.C.|880-6872,No,No,58,Yes
+673159,12/9/2012,16:22,D192/PN,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,B.Y.|880-6845,No,No,40,No
+673176,12/9/2012,13:08,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Cash,Z.T.|880-7477,No,No,38,No
+673176,12/9/2012,13:08,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,Z.T.|880-7477,No,No,38,No
+673199,12/9/2012,16:40,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,D.S.|880-7532,No,No,28,No
+673243,12/10/2012,18:46,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.S.|880-7532,No,No,35,No
+673243,12/10/2012,18:46,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,D.S.|880-7532,No,No,35,No
+673269,12/10/2012,13:41,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.U.|880-2953,No,No,32,No
+673286,12/11/2012,10:21,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,4,$19.80 ,$10.08 ,Mastercard,B.X.|880-9149,No,No,40,No
+673312,12/11/2012,8:07,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,W.B.|880-9647,No,No,39,No
+673325,12/11/2012,16:03,L196/AR,196,Lego,Antique Car,8 and up,$7.95 ,1,$7.95 ,$4.45 ,Mastercard,Z.T.|880-7477,No,No,47,No
+673358,12/11/2012,9:43,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,A.U.|880-2167,No,No,34,No
+673395,12/11/2012,14:13,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Discover,A.U.|880-2167,Yes,No,48,No
+673423,12/11/2012,14:04,D192/PN,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,U.O.|880-3720,No,No,44,No
+673423,12/11/2012,14:04,L340/FS,340,Lego,Fire Trucks,6 and up,$34.95 ,1,$34.95 ,$19.92 ,Cash,U.O.|880-3720,No,No,44,No
+673424,12/12/2012,16:07,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,Y.P.|880-6894,No,No,31,No
+673441,12/12/2012,10:29,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,5,$49.75 ,$25.85 ,Visa,S.V.|880-5987,No,No,41,Yes
+673441,12/12/2012,10:29,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,S.V.|880-5987,No,No,41,Yes
+673469,12/12/2012,19:17,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Gift Card,W.B.|880-9647,No,No,8,Yes
+673506,12/12/2012,12:55,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,1,$4.95 ,$2.52 ,Cash,D.S.|880-7532,No,No,39,No
+673506,12/12/2012,12:55,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.S.|880-7532,No,No,39,No
+673539,12/12/2012,16:02,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,B.Y.|880-6845,No,Yes,33,Yes
+673539,12/12/2012,16:02,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,B.Y.|880-6845,No,Yes,33,Yes
+673561,12/12/2012,15:43,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,B.X.|880-9149,No,No,37,Yes
+673561,12/12/2012,15:43,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,B.X.|880-9149,No,No,37,Yes
+673581,12/12/2012,10:42,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Check,V.W.|880-8599,No,No,28,No
+673589,12/12/2012,16:39,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Gift Card,S.Y.|880-3139,No,No,58,No
+673633,12/13/2012,10:25,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.Z.|880-1179,No,Yes,35,No
+673634,12/13/2012,15:44,L212/SD,212,Lego,Scooter and Stand,6 and up,$4.95 ,2,$9.90 ,$4.46 ,Mastercard,D.U.|880-2953,No,No,64,Yes
+673678,12/13/2012,12:40,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,N.W.|880-6237,No,No,44,Yes
+673688,12/13/2012,13:15,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,V.W.|880-8599,No,No,75,No
+673688,12/13/2012,13:15,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,V.W.|880-8599,No,No,75,No
+673728,12/13/2012,16:01,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,D.Z.|880-1179,No,No,38,No
+673771,12/13/2012,10:07,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,5,$49.75 ,$22.40 ,Visa,U.W.|880-9683,No,No,30,No
+673799,12/14/2012,12:00,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Visa,V.W.|880-8599,No,No,34,No
+673803,12/14/2012,16:17,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,B.Y.|880-6845,No,No,22,No
+673822,12/14/2012,11:31,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,5,$29.75 ,$15.45 ,Cash,W.C.|880-4861,No,No,41,No
+673823,12/14/2012,14:58,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Discover,B.Y.|880-6845,No,No,28,Yes
+673867,12/14/2012,12:22,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,B.X.|880-9149,No,No,29,No
+673882,12/15/2012,16:01,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Visa,D.W.|880-7199,No,Yes,34,No
+673882,12/15/2012,16:01,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.W.|880-7199,No,Yes,34,No
+673920,12/15/2012,13:47,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,B.Y.|880-6845,No,Yes,29,No
+673920,12/15/2012,13:47,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Discover,B.Y.|880-6845,No,Yes,29,No
+673961,12/16/2012,20:00,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Visa,S.V.|880-5987,No,Yes,42,No
+673990,12/16/2012,12:20,L212/SD,212,Lego,Scooter and Stand,6 and up,$4.95 ,1,$4.95 ,$2.23 ,Cash,D.S.|880-7532,No,No,39,No
+673990,12/16/2012,12:20,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.S.|880-7532,No,No,39,No
+674019,12/16/2012,12:21,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,N.W.|880-6237,No,No,49,No
+674050,12/16/2012,20:19,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Cash,W.B.|880-9647,No,Yes,35,No
+674055,12/16/2012,9:09,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,3,$29.85 ,$13.44 ,Check,N.W.|880-6237,Yes,No,39,No
+674097,12/17/2012,14:18,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.S.|880-7532,No,No,35,No
+674097,12/17/2012,14:18,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.S.|880-7532,No,No,35,No
+674126,12/17/2012,17:33,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Cash,U.W.|880-9683,No,No,31,No
+674158,12/17/2012,13:21,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,D.U.|880-2953,No,No,31,No
+674171,12/17/2012,15:54,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,4,$23.80 ,$12.36 ,Visa,D.Z.|880-1179,No,Yes,28,Yes
+674195,12/18/2012,18:39,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Discover,W.C.|880-4861,Yes,Yes,38,No
+674195,12/18/2012,18:39,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,W.C.|880-4861,Yes,Yes,38,No
+674195,12/18/2012,18:39,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Discover,W.C.|880-4861,Yes,Yes,38,No
+674225,12/19/2012,15:59,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Visa,D.S.|880-7532,No,No,42,No
+674225,12/19/2012,15:59,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Visa,D.S.|880-7532,No,No,42,No
+674266,12/19/2012,15:00,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,W.B.|880-9647,No,No,67,No
+674286,12/20/2012,15:42,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Mastercard,U.O.|880-3720,No,No,31,No
+674286,12/20/2012,15:42,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,U.O.|880-3720,No,No,31,No
+674306,12/20/2012,12:37,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,4,$39.80 ,$20.68 ,Cash,A.U.|880-2167,Yes,No,24,No
+674332,12/20/2012,15:12,L340/FS,340,Lego,Fire Trucks,6 and up,$34.95 ,4,$139.80 ,$79.68 ,Cash,D.W.|880-7199,No,No,37,No
+674363,12/21/2012,9:21,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,2,$9.90 ,$5.04 ,Cash,V.W.|880-4523,No,No,18,No
+674363,12/21/2012,9:21,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,V.W.|880-4523,No,No,18,No
+674377,12/22/2012,8:25,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Cash,D.S.|880-7532,No,No,30,Yes
+674377,12/22/2012,8:25,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,D.S.|880-7532,No,No,30,Yes
+674404,12/22/2012,12:22,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,2,$11.90 ,$6.18 ,Visa,L.W.|880-4986,No,No,34,Yes
+674404,12/22/2012,12:22,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Visa,L.W.|880-4986,No,No,34,Yes
+674410,12/22/2012,11:48,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,3,$29.85 ,$15.51 ,Cash,D.W.|880-7199,No,No,27,No
+674410,12/22/2012,11:48,D255/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,D.W.|880-7199,No,No,27,No
+674444,12/23/2012,16:10,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,Y.P.|880-6894,Yes,No,30,No
+674445,12/23/2012,15:45,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,1,$9.95 ,$4.48 ,Discover,W.B.|880-9647,No,No,56,No
+674445,12/23/2012,15:45,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Discover,W.B.|880-9647,No,No,56,No
+674481,12/24/2012,12:59,D250/AT,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Cash,Z.T.|880-7477,No,No,41,No
+674524,12/24/2012,16:58,L196/AR,196,Lego,Antique Car,8 and up,$7.95 ,1,$7.95 ,$4.45 ,Mastercard,W.B.|880-9647,No,No,38,Yes
+674560,12/25/2012,12:49,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,2,$19.90 ,$10.34 ,Check,V.W.|880-8599,No,No,23,No
+674575,12/25/2012,18:46,L197/FS,199,Duplo,Scooter,4 and up,$4.95 ,5,$24.75 ,$12.60 ,Cash,L.C.|880-6872,No,No,35,No
+674624,12/25/2012,11:33,L195/AE,195,Lego,Airplane,8 and up,$5.95 ,1,$5.95 ,$3.09 ,Cash,L.W.|880-4986,No,No,32,No
+674655,12/25/2012,15:33,L256/PE,256,Lego,Police Officers and Motorcycle,9 and up,$9.95 ,2,$19.90 ,$8.96 ,Mastercard,S.V.|880-5987,No,No,48,No
+674655,12/25/2012,15:33,D254/FE,192,Duplo,Policemen,6 and up,$9.95 ,1,$9.95 ,$5.17 ,Mastercard,S.V.|880-5987,No,No,48,No
