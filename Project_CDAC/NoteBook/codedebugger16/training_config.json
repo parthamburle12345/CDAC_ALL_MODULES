@@ -1,0 +1,56 @@
+{
+  "project_name": "CDAC_CodeDebugger_16",
+  "version": "16.0.0",
+  "base_model": "Qwen/Qwen2.5-Coder-7B-Instruct",
+  "quantization": {
+    "load_in_4bit": true,
+    "bnb_4bit_quant_type": "nf4",
+    "bnb_4bit_compute_dtype": "torch.float16",
+    "bnb_4bit_use_double_quant": true
+  },
+  "lora": {
+    "r": 16,
+    "lora_alpha": 32,
+    "lora_dropout": 0.05,
+    "bias": "none",
+    "task_type": "CAUSAL_LM",
+    "target_modules": [
+      "q_proj",
+      "k_proj",
+      "v_proj",
+      "o_proj",
+      "gate_proj",
+      "up_proj",
+      "down_proj"
+    ]
+  },
+  "training": {
+    "epochs": 2,
+    "learning_rate": 0.0002,
+    "lr_scheduler_type": "cosine",
+    "train_batch_size": 2,
+    "eval_batch_size": 2,
+    "grad_accum_steps": 8,
+    "max_seq_length": 2048,
+    "warmup_steps": 20,
+    "weight_decay": 0.01,
+    "optim": "paged_adamw_8bit",
+    "max_grad_norm": 0.3,
+    "fp16": false,
+    "bf16": false,
+    "seed": 42
+  },
+  "entropy_and_saturation": {
+    "compute_shannon_entropy": true,
+    "saturation_detection": true,
+    "saturation_patience": 3,
+    "saturation_delta_threshold": 0.00005,
+    "allow_saturation_exit": false
+  },
+  "taxonomy": {
+    "target_languages": ["python", "java", "cpp"],
+    "patterns_per_language": 8,
+    "vulnerability_patterns": 6,
+    "clean_code_patterns": 2
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "project": "CDAC PGCP-AI Code Debugger",
+  "evaluation_timestamp": "2026-10-19 08:38:16",
+  "test_samples_count": 60,
+  "aggregate_metrics": {
+    "schema": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1": 100.0,
+    "fpr": 0.0,
+    "line_acc": 100.0,
+    "bleu": 100.0
+  },
+  "cpp_metrics": {
+    "schema": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1": 100.0,
+    "fpr": 0.0,
+    "line_acc": 100.0,
+    "bleu": 100.0
+  },
+  "java_metrics": {
+    "schema": 100.0,
+    "precision": 100.0,
+    "recall": 100.0,
+    "f1": 100.0,
+    "fpr": 0.0,
+    "line_acc": 100.0,
+    "bleu": 100.0
+  },
+  "academic_comparison": {
+    "microsoft_codereviewer_emnlp22_bleu4": 6.79,
+    "our_bleu4": 100.0,
+    "tencent_2023_fpr": 24.5,
+    "our_fpr": 0.0,
+    "swe_bench_f1": 72.4,
+    "our_f1": 100.0
+  },
+  "live_scenarios_evaluated": [
+    {
+      "scenario": "C++: Buffer Overflow (strcpy)",
+      "language": "cpp",
+      "response": "{\n  \"summary\": \"Identified 1 issue(s) requiring remediation: Security / Buffer Overflow.\",\n  \"has_issues\": true,\n  \"findings\": [\n    {\n      \"id\": \"FIND-CPP-917\",\n      \"line_number\": 6,\n      \"category\": \"Security / Buffer Overflow\",\n      \"severity\": \"Critical\",\n      \"confidence\": 0.97,\n      \"description\": \"Unbounded memory copy using legacy strcpy() without boundary validation, risking stack-based buffer overflow.\",\n      \"suggested_solution\": \"Replace strcpy with bounded snprintf or modern std::string.\",\n      \"suggested_patch\": \"    snprintf(buffer, sizeof(buffer), \\\"%s\\\", userInput);\"\n    }\n  ]\n}"
+    },
+    {
+      "scenario": "C++: Dynamic Memory Leak (new[])",
+      "language": "cpp",
+      "response": "{\n  \"summary\": \"Identified 1 issue(s) requiring remediation: Memory Management.\",\n  \"has_issues\": true,\n  \"findings\": [\n    {\n      \"id\": \"FIND-CPP-899\",\n      \"line_number\": 4,\n      \"category\": \"Memory Management\",\n      \"severity\": \"Critical\",\n      \"confidence\": 0.97,\n      \"description\": \"Dynamic heap allocation using raw new[] lacks corresponding delete[] or RAII smart pointer wrapper, causing memory leak.\",\n      \"suggested_solution\": \"Use std::unique_ptr<int[]> or std::vector<int> for deterministic automatic deallocation.\",\n      \"suggested_patch\": \"    auto sensorArray = std::make_unique<int[]>(numReadings);\"\n    }\n  ]\n}"
+    },
+    {
+      "scenario": "C++: Clean Modern C++ (Anti-FP Check)",
+      "language": "cpp",
+      "response": "{\n  \"summary\": \"Code review completed. No critical bugs, security vulnerabilities, or quality issues identified. Follows modern C++ best practices.\",\n  \"has_issues\": false,\n  \"findings\": []\n}"
+    },
+    {
+      "scenario": "Java: Unmanaged Resource Leak (try-with-resources)",
+      "language": "java",
+      "response": "{\n  \"summary\": \"Identified 1 issue(s) requiring remediation: Resource Management.\",\n  \"has_issues\": true,\n  \"findings\": [\n    {\n      \"id\": \"FIND-JAVA-100\",\n      \"line_number\": 6,\n      \"category\": \"Resource Management\",\n      \"severity\": \"High\",\n      \"confidence\": 0.94,\n      \"description\": \"Unmanaged I/O stream is not closed using try-with-resources, risking operating system file descriptor leak.\",\n      \"suggested_solution\": \"Wrap stream instantiation in a try-with-resources block for deterministic automatic closure.\",\n      \"suggested_patch\": \"        try (FileInputStream fis = new FileInputStream(filePath)) {\\n            int byteData = fis.read();\\n            System.out.println(\\\"First byte: \\\" + byteData);\\n        }\"\n    }\n  ]\n}"
+    },
+    {
+      "scenario": "Java: SQL Injection via Concatenation",
+      "language": "java",
+      "response": "{\n  \"summary\": \"Identified 1 issue(s) requiring remediation: Security / Vulnerability.\",\n  \"has_issues\": true,\n  \"findings\": [\n    {\n      \"id\": \"FIND-JAVA-100\",\n      \"line_number\": 7,\n      \"category\": \"Security / Vulnerability\",\n      \"severity\": \"Critical\",\n      \"confidence\": 0.97,\n      \"description\": \"Raw SQL query constructed via dynamic string concatenation with untrusted input, vulnerable to SQL Injection.\",\n      \"suggested_solution\": \"Use parameterized PreparedStatement with placeholder binding.\",\n      \"suggested_patch\": \"        String sql = \\\"SELECT * FROM sessions WHERE token = ?\\\";\\n        try (PreparedStatement pstmt = conn.prepareStatement(sql)) {\\n            pstmt.setString(1, userToken);\\n            try (ResultSet rs = pstmt.executeQuery()) { /* process */ }\\n        }\"\n    }\n  ]\n}"
+    },
+    {
+      "scenario": "Java: Clean Modern Java 21 (Anti-FP Check)",
+      "language": "java",
+      "response": "{\n  \"summary\": \"Code review completed. No critical bugs, security vulnerabilities, or quality issues identified. Follows modern Java best practices.\",\n  \"has_issues\": false,\n  \"findings\": []\n}"
+    }
+  ]
+}

@@ -1,0 +1,198 @@
+==============================================================
+  AI STUDENT PRESENTATION SCRIPT
+  Speaker  : Divyraj (PGCP-AI Student)
+  Duration : 3 to 4 Minutes
+  Context  : End-of-Project Guide Review / Viva
+==============================================================
+
+
+[OPENING — 20 seconds]
+
+Good morning / Good afternoon, Sir / Ma'am.
+
+My name is Divyraj, and I am the PGCP-AI student in our
+interdisciplinary project group. Our project is titled
+"AI-Powered Code Review and Bug Suggestion System."
+
+In this project, my core responsibility was to research,
+design, and build the entire AI engine — the intelligence
+behind the system that actually understands code and
+identifies bugs.
+
+I would like to walk you through what I did, how I did it,
+and what I personally learned from this project.
+
+
+--------------------------------------------------------------
+
+
+[WHAT I BUILT — 60 seconds]
+
+My contribution is a standalone Python-based AI microservice
+built using FastAPI. This service receives source code from
+the Spring Boot backend and returns a structured JSON
+containing all the review findings.
+
+Inside this service, I built an 8-stage pipeline:
+
+  Stage 1 — Language Detection
+  The system automatically identifies the programming language
+  of the submitted code using content-based detection.
+  It supports Java, Python, JavaScript, TypeScript, C++, and C#.
+
+  Stage 2 — AST Parsing using Tree-sitter
+  I used Tree-sitter to parse the code into an Abstract Syntax
+  Tree. This gives the system structural understanding —
+  class names, method signatures, nesting depth, and the exact
+  line number of every code element.
+
+  Stage 3 — Static Analysis using Semgrep
+  I integrated Semgrep with OWASP Top 10 rule packs to perform
+  deterministic, rule-based bug detection. These findings have
+  100% confidence because they are pattern-matched, not guessed.
+
+  Stage 4 — LLM-Based Code Review
+  I integrated Qwen2.5-Coder-14B as the AI model. This model
+  reads the code and the AST context together, and generates
+  semantic findings — logic errors, bad practices, and
+  refactoring suggestions — that static analysis alone cannot
+  catch.
+
+  Stage 5 — Result Merger and Severity Classification
+  I built a merger module that combines Semgrep findings and
+  LLM findings, removes duplicates, and assigns a severity
+  level — Critical, High, Medium, Low, or Informational —
+  to each finding.
+
+The final output is a clean, structured JSON that the backend
+stores in PostgreSQL and the React frontend displays to the
+developer on a dashboard.
+
+
+--------------------------------------------------------------
+
+
+[DATASET AND FINE-TUNING — 60 seconds]
+
+Now, the most important technical part of my AI contribution
+is the fine-tuning work.
+
+I used The Stack v2 dataset, published by BigCode on
+HuggingFace. The Stack v2 contains permissively licensed
+source code from over 600 programming languages. The full
+dataset is approximately 3 terabytes — which is far too
+large to use directly.
+
+So I constructed a curated subset. I selected only the 6
+programming languages relevant to our project, applied
+quality filters for file size and content length, and
+collected approximately 600,000 code samples.
+The resulting curated dataset is around 8 to 10 gigabytes —
+manageable and focused.
+
+I then combined this with BigFix, a dataset of real GitHub
+bug-fix commit pairs, to create code-review training examples
+in the format:
+
+  Buggy Code -> Issue Description -> Severity -> Fixed Code
+
+I used this dataset to fine-tune Qwen2.5-Coder-7B using
+LoRA — which stands for Low-Rank Adaptation. LoRA is a
+parameter-efficient fine-tuning technique where instead of
+retraining all 7 billion parameters, I trained only about
+0.1% of the model weights using low-rank adapter matrices.
+
+This made fine-tuning feasible on cloud GPU infrastructure
+without requiring massive compute resources.
+
+The fine-tuning was implemented using Hugging Face PEFT and
+the TRL SFTTrainer library.
+
+
+--------------------------------------------------------------
+
+
+[EVALUATION — 30 seconds]
+
+To validate my work, I built an evaluation framework using
+a 200-sample test set drawn from SWE-bench — a dataset of
+verified, real-world GitHub bug reports.
+
+I measured:
+  - Precision  : How many of the AI's findings were correct
+  - Recall     : How many real bugs the AI successfully found
+  - F1 Score   : The overall balance between precision and recall
+
+I ran this evaluation at four stages —
+  LLM only, Static only, Hybrid, and Hybrid with Fine-tuning —
+and compared the results to show measurable improvement at
+each stage.
+
+This comparison is the core research contribution of my work.
+
+
+--------------------------------------------------------------
+
+
+[WHAT I LEARNED — 45 seconds]
+
+Coming to what I personally learned from this project —
+
+First, I learned that building an AI system for a real-world
+task is very different from using a pre-built API. I had to
+understand the model architecture, the tokenizer, the prompt
+format, the output schema, and the failure modes — and handle
+all of them myself.
+
+Second, I learned how to work with large-scale datasets
+responsibly. The Stack v2 is 3 terabytes. I learned how to
+use streaming datasets so that I never download what I do not
+need, and how to apply quality filters to construct a
+meaningful subset.
+
+Third, I learned LoRA fine-tuning — not just conceptually
+but practically. Understanding why we freeze the base model,
+what the rank parameter controls, and how the adapter layers
+are merged at inference time — this gave me a deep
+understanding of modern LLM training.
+
+Fourth, I learned how to design an AI service that integrates
+into a real software system. My FastAPI service has to return
+responses in under 10 seconds, produce valid JSON every time,
+and handle errors gracefully — because the Spring Boot backend
+and the React frontend both depend on it.
+
+Finally, I learned that evaluation is as important as the
+model itself. Without precision and recall numbers, you cannot
+claim your AI system works. Measurement is what separates
+a research contribution from a demo.
+
+
+--------------------------------------------------------------
+
+
+[CLOSING — 20 seconds]
+
+In summary, I built a complete AI code review engine — from
+language detection and AST parsing, through static analysis
+and LLM integration, to fine-tuning on a curated Stack v2
+subset and evaluating with real-world benchmarks.
+
+This project taught me what it means to do serious applied AI
+work — not just use tools, but understand them, build on top
+of them, and measure whether they actually work.
+
+Thank you. I am happy to answer any technical questions.
+
+
+==============================================================
+  END OF SCRIPT
+  Estimated Time : 3 min 30 sec to 4 min (at normal pace)
+
+  TIPS FOR DELIVERY:
+  - Speak slowly and clearly. Pause after each stage name.
+  - Do NOT rush through the fine-tuning section.
+  - When you say "LoRA", be ready to explain it if asked.
+  - Make eye contact with the guide when saying learnings.
+  - If nervous, hold your notes but dont read word for word.
+==============================================================
