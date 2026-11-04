@@ -51,23 +51,28 @@ desktop.ini
 *~
 
 # ==========================
-# Large Data Files & Archives
+# Large Data Files & Archives (>100MB / Redundant)
 # ==========================
-*.zip
-*.parquet
+/ML.zip
+Project_CDAC/dataset/
+ML/archive/
 *.tar.gz
 *.tar
 *.gz
 
-# ==========================
-# Dataset folders (too large for GitHub)
-# ==========================
-Project_CDAC/dataset/
-ML/archive/
+# Ignore general zip files but keep coursework datasets
+*.zip
+!ML/Day6/emails.zip
+
+# Ignore large parquet files but keep small assignment datasets (<5MB)
+*.parquet
+!Data Analytics/Practice_EDA/data/enterprise_retail_analytics.parquet
 
 # ==========================
-# Misc
+# Logs & Temp files (keep assignment sample logs)
 # ==========================
 *.log
+!Python/Day_04_Practice_Assignment/transactions.log
+!Python/Day_07_Practice_assignment/server_access.log
 *.tmp
 *.bak

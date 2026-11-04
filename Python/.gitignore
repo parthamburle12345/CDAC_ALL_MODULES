@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[codz]
@@ -217,13 +216,10 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
-=======
-**/__pycache__
+**/__pycache
 **/.DS_Store
 **/temp
 
-
-book_cover.jpg
-Python_Learning_Material.html
-Python_Learning_Material.md
->>>>>>> e1235fd (Initial CDAC Bangalore assignments)
+# Assignment log files
+!Day_04_Practice_Assignment/transactions.log
+!Day_07_Practice_assignment/server_access.log
