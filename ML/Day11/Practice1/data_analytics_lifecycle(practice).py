@@ -125,9 +125,12 @@ def phase_4_predictive_modeling(df):
     model.fit(X,y)
     
     # TODO: Extract model coefficients and intercept
-    slope = model.coef_[0]
-    intercept = model.intercept_
-    print(slope,intercept)
+    # slope = model.coef_[0]
+    # intercept = model.intercept_
+    # print(slope,intercept)
+
+    print(model.coef_)
+    print(model.intercept_)
     return model,X,y
 
 

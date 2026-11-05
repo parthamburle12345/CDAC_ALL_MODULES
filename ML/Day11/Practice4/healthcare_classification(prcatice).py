@@ -38,9 +38,15 @@ def phase_2_supervised_segmentation(df):
     print("\n[PHASE 2] Supervised Segmentation")
     print("-" * 65)
     # TODO: Group data by 'High_Risk_Hypertension' and calculate mean of numeric features (BMI, Daily_Steps)
+    # group_mean = df.groupby('High_Risk_Hypertension')[["BMI", "Daily_Steps"]].mean()
+    # print(group_mean)
+    # return df
+
     group_mean = df.groupby('High_Risk_Hypertension')[["BMI", "Daily_Steps"]].mean()
     print(group_mean)
     return df
+
+
 
 def phase_3_classification_modeling(df):
     """

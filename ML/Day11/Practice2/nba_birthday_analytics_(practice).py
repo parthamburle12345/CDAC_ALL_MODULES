@@ -57,6 +57,7 @@ def phase_2_birthday_paradox_analysis(df):
     # TODO: Count frequency of birthdays per calendar day
     bday_counts = valid_df["bday_md"].value_counts()
     print(bday_counts.head(5))
+
     
     # TODO: Identify dates shared by multiple NBA players in the dataset
     shared_date = bday_counts[bday_counts >1]
