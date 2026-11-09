@@ -39,13 +39,27 @@ y_pred = clf.predict(X_train)
 accuracy = (y_pred == y_train).mean()
 print("Accuracy on the training data:")
 print(accuracy)
+
+# Evaluating accuracy on the test data
+y_pred_test = clf.predict(X_test)
+accuracy_test = (y_pred_test == y_test).mean()
+print("Accuracy on the test data:")
+print(accuracy_test)
 print("=" * 60)
+
+# Scale sample features with feature names to match training
 sample_1 = pd.DataFrame([[10, 1, 4, 0, 0, 0]], columns=features)
 sample_2 = pd.DataFrame([[10, 0, 4, 0, 0, 0]], columns=features)
 
-print("Prediction for sample 1:")
-print(clf.predict(sample_1))
-print("Prediction for sample 2:")
-print(clf.predict(sample_2))
+sample_1_scaled = pd.DataFrame(scaler.transform(sample_1), columns=features)
+sample_2_scaled = pd.DataFrame(scaler.transform(sample_2), columns=features)
+
+print("Prediction for sample 1 (Employed=Y):")
+pred_1 = clf.predict(sample_1_scaled)[0]
+print(f"Result: {pred_1} ({'Hired' if pred_1 == 1 else 'Not Hired'})")
+
+print("Prediction for sample 2 (Employed=N):")
+pred_2 = clf.predict(sample_2_scaled)[0]
+print(f"Result: {pred_2} ({'Hired' if pred_2 == 1 else 'Not Hired'})")
 print("=" * 60)
 

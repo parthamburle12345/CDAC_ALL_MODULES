@@ -7,14 +7,15 @@ Description: A modular Python exercise script for loading clean loan applicant d
 """
 
 # Step 0: Import necessary libraries
-import os
+# TODO: Import pandas, numpy, train_test_split, StandardScaler, 
+#       LogisticRegression, accuracy_score, classification_report, confusion_matrix, and joblib
 import joblib
 import numpy as np
 import pandas as pd
-from sklearn.linear_model import LogisticRegression
-from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 from sklearn.model_selection import train_test_split
 from sklearn.preprocessing import StandardScaler
+from sklearn.linear_model import LogisticRegression
+from sklearn.metrics import accuracy_score, classification_report, confusion_matrix
 
 
 def phase_1_discovery_and_target_identification():
@@ -26,29 +27,20 @@ def phase_1_discovery_and_target_identification():
     """
     print("\n[PHASE 1] Discovery & Target Identification")
     print("-" * 65)
+    # TODO: Load CSV file using pandas
+    df = pd.read_csv("loan_risk_data.csv")
 
+    # TODO: Separate target feature y ('default_flag') and predictor features X
+    y = df["default_flag"]
+    X = df.drop(columns=["default_flag"])
 
-
-    df = pd.read_csv(f"./Day11/ML_Practice/Bank_Loan_Risk/loan_risk_data.csv")
-
-    print("Dataset Preview:\n", df.head())
-    print("\nDataset Shape:", df.shape)
-
-    # Separate target variable (y) and predictors (X)
-    target_col = "default_flag"
-    y = df[target_col]
-    X = df.drop(columns=[target_col])
-
-    # Drop non-predictive ID column if present
+    # TODO: Drop ID column ('applicant_id')
     if "applicant_id" in X.columns:
         X = X.drop(columns=["applicant_id"])
 
-    # Inspect class balance of the target
-    print("\nTarget Class Distribution:")
-    print(y.value_counts())
-    print("\nTarget Class Ratio:")
-    print(y.value_counts(normalize=True).round(4))
-
+    # TODO: Inspect class distribution of target variable
+    print("X shape:", X.shape, "| y shape:", y.shape)
+    print("Target Class Distribution:\n", y.value_counts())
     return X, y
 
 
@@ -60,23 +52,16 @@ def phase_2_feature_engineering_and_encoding(X):
     """
     print("\n[PHASE 2] Feature Engineering & Categorical Encoding")
     print("-" * 65)
-
-    # Create copy to prevent SettingWithCopyWarning
     X = X.copy()
+    # TODO: Apply one-hot encoding to categorical columns using pd.get_dummies()
+    X = pd.get_dummies(X, columns=["housing_status"], drop_first=True)
 
-    # Optional Feature Engineering: loan-to-income ratio
-    if "loan_amount_k" in X.columns and "annual_income_k" in X.columns:
-        X["loan_to_income_ratio"] = X["loan_amount_k"] / (X["annual_income_k"] + 1e-5)
-        print("Created feature: 'loan_to_income_ratio'")
+    # TODO: Add engineered features if desired (e.g., X['loan_to_income_ratio'] = X['loan_amount_k'] / X['annual_income_k'])
+    X["loan_to_income_ratio"] = X["loan_amount_k"] / X["annual_income_k"]
 
-    # One-hot encode categorical features (convert text columns into 0 and 1)
-    X_encoded = pd.get_dummies(X, drop_first=True)
-
-    print("\nTransformed Features Head:")
-    print(X_encoded.head())
-    print("\nTotal Features after encoding:", X_encoded.shape[1])
-
-    return X_encoded
+    # TODO: Display head of transformed feature matrix
+    print("Transformed Feature Matrix Head:\n", X.head())
+    return X
 
 
 def phase_3_scaling_and_train_test_split(X, y):
@@ -87,22 +72,19 @@ def phase_3_scaling_and_train_test_split(X, y):
     """
     print("\n[PHASE 3] Data Splitting & Feature Scaling")
     print("-" * 65)
-
-    # Split dataset: 80% train, 20% test
-    # stratify=y preserves the same percentage of defaults in train and test sets
+    # TODO: Perform train_test_split (test_size=0.2, random_state=42)
     X_train, X_test, y_train, y_test = train_test_split(
-        X, y, test_size=0.20, random_state=42, stratify=y
+        X, y, test_size=0.2, random_state=42, stratify=y
     )
 
-    print(f"Training samples: {X_train.shape[0]} | Testing samples: {X_test.shape[0]}")
-
-    # Scale numerical values to standard range (mean=0, std=1)
+    # TODO: Initialize StandardScaler and scale numerical features
     scaler = StandardScaler()
 
-    # Fit ONLY on training set, then transform both
+    # TODO: Fit scaler on X_train, transform X_train and X_test
     X_train_scaled = scaler.fit_transform(X_train)
     X_test_scaled = scaler.transform(X_test)
 
+    print(f"Train set: {X_train_scaled.shape}, Test set: {X_test_scaled.shape}")
     return X_train_scaled, X_test_scaled, y_train, y_test, scaler
 
 
@@ -114,27 +96,19 @@ def phase_4_model_training_and_testing(X_train_scaled, X_test_scaled, y_train, y
     """
     print("\n[PHASE 4] Model Training & Test Set Evaluation")
     print("-" * 65)
-
-    # Train Logistic Regression model
+    # TODO: Instantiate LogisticRegression(random_state=42) and fit on training data
     model = LogisticRegression(random_state=42)
     model.fit(X_train_scaled, y_train)
 
-    # Make predictions on test set
+    # TODO: Generate predictions on test set
     y_pred = model.predict(X_test_scaled)
 
-    # Evaluation Metrics
-    accuracy = accuracy_score(y_test, y_pred)
+    # TODO: Compute accuracy_score and classification_report
+    acc = accuracy_score(y_test, y_pred)
     cm = confusion_matrix(y_test, y_pred)
-    tn, fp, fn, tp = cm.ravel()
-
-    print(f"Test Accuracy: {accuracy:.4f}\n")
-    print("Confusion Matrix:")
-    print(f"  [TN: {tn:4d}  |  FP: {fp:4d}]")
-    print(f"  [FN: {fn:4d}  |  TP: {tp:4d}]\n")
-
-    print("Classification Report:")
-    print(classification_report(y_test, y_pred))
-
+    print(f"Accuracy: {acc:.4f}")
+    print("Confusion Matrix:\n", cm)
+    print("Classification Report:\n", classification_report(y_test, y_pred))
     return model
 
 
@@ -146,28 +120,24 @@ def phase_5_joblib_model_persistence(model, scaler, feature_names):
     """
     print("\n[PHASE 5] Model Persistence with Joblib")
     print("-" * 65)
+    # TODO: Use joblib.dump() to save the model and scaler to disk (.joblib files)
+    model_path = "loan_model.joblib"
+    scaler_path = "loan_scaler.joblib"
 
-    # 1. Save artifacts to disk
-    joblib.dump(model, "loan_model.joblib")
-    joblib.dump(scaler, "loan_scaler.joblib")
-    joblib.dump(feature_names, "feature_names.joblib")
-    print("Saved pipeline artifacts: 'loan_model.joblib', 'loan_scaler.joblib', 'feature_names.joblib'")
+    joblib.dump(model, model_path)
+    joblib.dump(scaler, scaler_path)
+    print("Model and Scaler successfully saved using joblib.")
 
-    # 2. Reload saved artifacts
-    loaded_model = joblib.load("loan_model.joblib")
-    loaded_scaler = joblib.load("loan_scaler.joblib")
-    loaded_features = joblib.load("feature_names.joblib")
+    # TODO: Load saved artifacts using joblib.load() and perform sample inference
+    loaded_model = joblib.load(model_path)
+    loaded_scaler = joblib.load(scaler_path)
 
-    # 3. Test sample inference with a single dummy applicant row
-    sample_applicant = np.zeros((1, len(loaded_features)))
+    sample_applicant = np.zeros((1, len(feature_names)))
     sample_scaled = loaded_scaler.transform(sample_applicant)
-
     prediction = loaded_model.predict(sample_scaled)[0]
-    probability = loaded_model.predict_proba(sample_scaled)[0][1]
+    prob = loaded_model.predict_proba(sample_scaled)[0][1]
 
-    print("\nInference Verification Test:")
-    print(f"Sample Applicant Default Prediction : {prediction} ({'Default' if prediction == 1 else 'No Default'})")
-    print(f"Probability of Default             : {probability:.2%}")
+    print(f"Inference Test on Sample -> Predicted Default Flag: {prediction} (Default Probability: {prob:.4f})")
 
 
 # ==========================================
@@ -181,7 +151,7 @@ def run_ml_pipeline():
     print("=" * 65)
     print("STARTING LOAN RISK CLASSIFICATION LIFECYCLE (Logistic Regression)")
     print("=" * 65)
-
+    
     # Executing phases chronologically
     X, y = phase_1_discovery_and_target_identification()
     X_encoded = phase_2_feature_engineering_and_encoding(X)

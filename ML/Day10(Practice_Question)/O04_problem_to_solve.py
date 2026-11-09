@@ -120,10 +120,10 @@ print(f"Accuracy on test set: {acc * 100:.2f}%")
 print("Classification Report:\n", classification_report(y_test, y_pred,target_names=role_encoder.classes_ ))
 
 # predict for new player
-new_player_raw = np.array([[130,3500,105,30,1]])  # 
+new_player_raw = pd.DataFrame([[130, 3500, 105, 30, 1]], columns=feature_columns)
 new_player_scaled = scaler.transform(new_player_raw)
 
-# redict role
+# predict role
 predicted_code = rf_clf.predict(new_player_scaled)
 predicted_role = role_encoder.inverse_transform(predicted_code)
 print(f"Predicted role for the new player: {predicted_role[0]}")    
