@@ -61,6 +61,8 @@ def phase_2_feature_engineering_and_encoding(X):
     # TODO: Add engineered features if desired (e.g., X['avg_monthly_spend'] = X['total_charges'] / X['tenure_months'])
     if "total_charges" in X.columns and "tenure_months" in X.columns:
         X["avg_monthly_spend"] = X["total_charges"] / X["tenure_months"].replace(0, 1)
+        #Replaces every zero in the tenure_months column with 1. To avoid division by zero.
+
 
     # TODO: Display head of transformed feature matrix
     print("Transformed Feature Matrix Head:\n", X.head())

@@ -1,0 +1,70 @@
+# Project Problem Statement: Unsupervised B2B Client Segmentation via Agglomerative Hierarchical Clustering
+
+## Business Scenario & Objective
+
+A regional wholesale food and supply distributor services commercial enterprises across a metropolitan corridor. The customer base encompasses diverse business models: full-service restaurants, high-volume supermarkets, suburban delis, and corner convenience kiosks. Currently, sales account managers treat all commercial buyers uniformly, leading to sub-optimal bulk discounting, misaligned delivery routes, and product spoilage.
+
+Because customer accounts lack predefined classification labels, the commercial analytics group requires an unsupervised segmentation framework. Unlike K-Means, which demands pre-specifying cluster centers and assumes spherical dispersion, the team seeks a hierarchical taxonomy that reveals nested relationships across client purchasing habits.
+
+Your objective as an ML Engineer is to build a modular unsupervised machine learning pipeline using **Agglomerative Clustering** with Ward's linkage to discover natural client archetypes from purchasing data (`wholesale_client_data.csv`), evaluate cluster cohesion using the Silhouette Score, profile cluster centroids, and persist pipeline artifacts for automated B2B account onboarding.
+
+---
+
+## Step-by-Step Implementation Requirements
+
+### Step 1: Discovery, Setup & Analytical Feature Selection (5 Marks)
+* **Objective:** Ingest the unlabelled B2B dataset (`wholesale_client_data.csv`), inspect records, and isolate analytical features.
+* **Tasks:**
+  * Import the dataset using pandas and verify dimensions ($25$ records, $7$ attributes) and data types.
+  * Retain `client_name` in the original DataFrame for qualitative segment interpretation.
+  * Separate and isolate numerical expenditure columns: `fresh_produce_k`, `dairy_milk_k`, `grocery_k`, `frozen_goods_k`, `delicatessen_k`.
+  * Display descriptive summary statistics (mean, min, max, standard deviation) for all spending categories.
+
+### Step 2: Unsupervised Feature Standardization (10 Marks)
+* **Objective:** Scale spending dimensions to prevent high-magnitude categories from dominating Euclidean distance calculations.
+* **Tasks:**
+  * Instantiate `StandardScaler` from scikit-learn.
+  * Fit and transform the numerical feature matrix $X$ so that every spending category has zero mean and unit variance.
+  * Verify that the scaled array preserves the original shape ($25 \times 5$).
+
+### Step 3: Agglomerative Clustering Model Induction (10 Marks)
+* **Objective:** Perform bottom-up hierarchical agglomeration to partition client accounts.
+* **Tasks:**
+  * Instantiate `AgglomerativeClustering` from `sklearn.cluster` setting:
+    * `n_clusters = 3`
+    * `metric = 'euclidean'`
+    * `linkage = 'ward'` (minimizes total within-cluster variance).
+  * Fit the model and compute cluster labels using `.fit_predict(X_scaled)`.
+  * Append assigned cluster IDs (`cluster_id`) back to a copy of the original dataset.
+  * Print value counts of assigned clusters to verify distribution balance.
+
+### Step 4: Cluster Validation, Profiling & Dendrogram Logic (10 Marks)
+* **Objective:** Evaluate cluster separation and translate statistical profiles into actionable B2B account tiers.
+* **Tasks:**
+  * Compute the **Silhouette Score** (`silhouette_score(X_scaled, labels)`) to assess cluster tightness and inter-cluster separation.
+  * Group the original dataset by `cluster_id` and compute the mean expenditure across all 5 product categories.
+  * Translate centroid statistics into clear business profiles:
+    * **Tier 1 (Fresh Dining & Hospitality):** Elevated fresh produce and delicatessen spend (Restaurants, Grills, Bistros).
+    * **Tier 2 (High-Volume Retail):** Substantial grocery, frozen goods, and dairy volume (Supermarkets, Hypermarkets).
+    * **Tier 3 (Budget Convenience):** Modest, balanced purchases across basic essentials (Kiosks, Corner Bodegas).
+  * Print sample client names with their assigned cluster IDs.
+
+### Step 5: Model Persistence & Client Scoring with Joblib (5 Marks)
+* **Objective:** Persist trained clustering pipeline artifacts and simulate scoring a new wholesale lead.
+* **Tasks:**
+  * Serialize the fitted `AgglomerativeClustering` model and `StandardScaler` using `joblib.dump()`.
+  * Deserialize artifacts using `joblib.load()`.
+  * Construct a sample new wholesale client profile (e.g., Fresh Produce 35k, Dairy 6k, Grocery 8k, Frozen 2.5k, Delicatessen 9.5k).
+  * Scale the sample and assign it to the nearest cluster archetype based on Euclidean distance to cluster centroids.
+
+---
+
+## Pedagogical Core Concepts: Agglomerative Hierarchical Clustering
+1. **Bottom-Up (Agglomerative) Paradigm:** Starts with each sample as its own singleton cluster ($N$ clusters for $N$ observations) and iteratively merges the most similar pair of clusters until only $k$ clusters remain.
+2. **Linkage Criteria:**
+   * **Ward Linkage:** Merges clusters that minimize the increase in total within-cluster variance (sum of squared Euclidean distances). Tends to produce equal-sized, spherical clusters.
+   * **Complete Linkage:** Distance between two clusters is the maximum distance between any single sample in cluster $A$ and cluster $B$.
+   * **Single Linkage:** Minimum distance between samples; prone to "chaining" anomalies.
+   * **Average Linkage:** Average pairwise distance between all pairs.
+3. **Dendrogram Representation:** Hierarchical clustering produces a binary tree (dendrogram) visualizing cluster merge distances, enabling visual selection of the optimal cut threshold without re-running the algorithm.
+

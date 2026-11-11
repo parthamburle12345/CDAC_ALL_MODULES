@@ -1,0 +1,65 @@
+# Project Problem Statement: Supervised Healthcare Insurance Premium & Expense Forecasting
+
+## Business Scenario & Objective
+
+A health insurance provider manages medical coverage portfolios for diverse policyholders. Healthcare expense claims exhibit substantial variance: while healthy, young non-smokers incur nominal annual medical charges ($1,500 - $4,000), lifestyle risk factors such as elevated Body Mass Index (BMI > 30) combined with tobacco smoking trigger exponential non-linear expense surges ($30,000 - $45,000+).
+
+Traditional linear regression models underperform because they assume additive linear relationships and require manual specification of higher-order interaction terms. To overcome these constraints, the actuarial analytics department has commissioned an end-to-end Machine Learning pipeline utilizing an ensemble algorithm: **Random Forest Regressor**.
+
+Your objective as an ML Engineer is to build a modular, reproducible supervised learning pipeline using **Random Forest Regressor** to predict medical charges (`charges_usd`), evaluate regression goodness-of-fit ($R^2$, MAE, RMSE), inspect feature importances, and serialize the trained pipeline artifacts using `joblib` for automated real-time underwriting risk scoring.
+
+---
+
+## Step-by-Step Implementation Requirements
+
+### Step 1: Discovery, Setup & Target/Predictor Identification (5 Marks)
+* **Objective:** Ingest the raw insurance records (`insurance_charges_data.csv`), audit data types, and isolate features.
+* **Tasks:**
+  * Import the dataset using pandas and verify its dimensions ($25$ records, $7$ attributes) and data types.
+  * Drop non-predictive unique identifiers (`patient_id`).
+  * Separate the continuous target feature ($y = \text{'charges\_usd'}$) from the predictor feature matrix ($X$).
+  * Inspect descriptive summary statistics for continuous attributes (`age`, `bmi`, `children`).
+
+### Step 2: Categorical Encoding & Feature Engineering (10 Marks)
+* **Objective:** Encode nominal categories and formulate domain-driven interaction features.
+* **Tasks:**
+  * Identify categorical features: `smoker` (`yes`/`no`) and `region` (`northeast`, `northwest`, `southeast`, `southwest`).
+  * Apply One-Hot Encoding using `pd.get_dummies(..., drop_first=True)` to prevent dummy variable collinearity trap.
+  * Engineer a domain interaction feature: `bmi_smoker_risk` (e.g., product of BMI and binary smoker flag) to explicitly amplify high-risk joint attributes.
+  * Verify the transformed matrix dimensions and inspect column headings.
+
+### Step 3: Train-Test Split & Feature Scaling (10 Marks)
+* **Objective:** Partition the dataset into independent folds and standardize numeric features.
+* **Tasks:**
+  * Perform an 80/20 train-test split using `train_test_split(test_size=0.2, random_state=42)` to ensure reproducibility.
+  * Initialize `StandardScaler` from scikit-learn.
+  * Fit the scaler strictly on the training set (`X_train`) and transform both `X_train` and `X_test` to prevent data leakage.
+  * Verify and print the shapes of scaled training and testing partitions.
+
+### Step 4: Random Forest Model Induction & Regression Metrics (10 Marks)
+* **Objective:** Train an ensemble of decision trees and evaluate generalization error.
+* **Tasks:**
+  * Instantiate `RandomForestRegressor(n_estimators=100, max_depth=6, random_state=42)` from `sklearn.ensemble`.
+  * Fit the regressor on the scaled training features and target values (`X_train_scaled`, `y_train`).
+  * Generate predictions on the holdout test set (`X_test_scaled`).
+  * Compute and print regression evaluation metrics:
+    * **Mean Absolute Error (MAE):** Average magnitude of absolute residuals in USD.
+    * **Root Mean Squared Error (RMSE):** Quadratic metric penalizing large estimation discrepancies.
+    * **R-squared ($R^2$):** Coefficient of determination representing the proportion of variance explained by the ensemble.
+  * Extract and display the top feature importances using `model.feature_importances_`.
+
+### Step 5: Model Persistence & Sample Inference with Joblib (5 Marks)
+* **Objective:** Export model artifacts and validate automated inference.
+* **Tasks:**
+  * Serialize the trained `RandomForestRegressor` and fitted `StandardScaler` to disk as `.joblib` files (`insurance_rf_model.joblib`, `insurance_scaler.joblib`).
+  * Implement an inference verification function that deserializes the artifacts using `joblib.load()`.
+  * Construct a synthetic new patient profile (e.g., 35-year-old, BMI 31.2, smoker) matching the feature space.
+  * Scale the synthetic profile and output the predicted insurance charges valuation.
+
+---
+
+## Pedagogical Core Concepts: Why Random Forest?
+1. **Ensemble Bagging (Bootstrap Aggregation):** Random Forest trains $B$ independent decision trees on bootstrapped subsets of the training data. Averaging predictions across trees reduces estimator variance without inflating bias.
+2. **Feature Subsampling (Random Subspace):** At each node split, only a random subset of features ($\sqrt{p}$ or $p/3$) is considered. This de-correlates individual trees, preventing dominant predictors (like `smoker`) from dominating all tree root nodes.
+3. **Robustness to Non-Linearity & Outliers:** Unlike linear models, decision trees segment feature space orthogonally, inherently accommodating non-linear charge spikes without requiring logarithmic transformations.
+

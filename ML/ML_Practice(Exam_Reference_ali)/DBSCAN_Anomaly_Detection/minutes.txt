@@ -1,0 +1,76 @@
+# Project Problem Statement: Density-Based Urban Logistics Hotspot & Anomaly Discovery via DBSCAN
+
+## Business Scenario & Objective
+
+An on-demand urban logistics and courier platform coordinates hundreds of delivery drops daily across a metropolitan region. Due to irregular urban topography, deliveries naturally form dense geographic and operational clusters: downtown commercial corridors, suburban tech parks, and heavy industrial distribution centers. Concurrently, unexpected road closures, driver deviations, and vehicle breakdowns generate severe spatial and temporal outliers (extreme delays and erratic coordinates).
+
+Traditional distance-based algorithms like K-Means fail in this operational environment:
+1. They force every extreme outlier into a cluster, pulling centroids away from actual fulfillment centers.
+2. They presuppose spherical geometry, whereas road networks and delivery corridors follow arbitrary, non-linear shapes.
+3. They demand specifying $k$ in advance, which is unknown in dynamic logistics.
+
+To solve this, the operations engineering team has mandated the deployment of **DBSCAN (Density-Based Spatial Clustering of Applications with Noise)**.
+
+Your objective as an ML Engineer is to build an end-to-end unsupervised pipeline using **DBSCAN** on telemetry data (`delivery_fleet_telemetry.csv`) to automatically discover dense delivery fulfillment zones, isolate anomalous delivery drops as noise (`cluster_id == -1`), evaluate cluster cohesion on core points using the Silhouette Score, and persist the pipeline artifacts using `joblib` for automated streaming telemetry screening.
+
+---
+
+## Step-by-Step Implementation Requirements
+
+### Step 1: Discovery, Setup & Telemetry Feature Selection (5 Marks)
+* **Objective:** Ingest vehicle telemetry records (`delivery_fleet_telemetry.csv`), audit coordinate spans, and isolate analytical features.
+* **Tasks:**
+  * Import the dataset using pandas and verify dimensions ($28$ records, $6$ attributes) and data types.
+  * Retain `delivery_id` and `vehicle_id` for qualitative root-cause auditing.
+  * Isolate the continuous spatial and operational metrics: `latitude`, `longitude`, `delivery_delay_min`, `package_weight_kg`.
+  * Display descriptive summary statistics (min, max, mean, standard deviation) to observe the wide spread caused by potential outliers.
+
+### Step 2: Unsupervised Feature Scaling (10 Marks)
+* **Objective:** Standardize coordinates and operational metrics to ensure isotropic $\varepsilon$-neighborhood distance calculations.
+* **Tasks:**
+  * Instantiate `StandardScaler` from scikit-learn.
+  * Fit and transform the numerical feature matrix $X$ into $X_{\text{scaled}}$.
+  * Emphasize why feature scaling is strictly mandatory for DBSCAN: without scaling, features with large numeric scales (e.g., delays up to 145 minutes) would completely dominate spatial GPS degrees (ranges of $\approx 0.5$).
+  * Verify that the scaled array retains shape ($28 \times 4$).
+
+### Step 3: DBSCAN Model Induction & Noise Segregation (10 Marks)
+* **Objective:** Calibrate density parameters, induce clusters, and isolate operational noise.
+* **Tasks:**
+  * Instantiate `DBSCAN` from `sklearn.cluster` with:
+    * `eps = 0.65` (maximum neighborhood radius).
+    * `min_samples = 3` (minimum core point density threshold).
+    * `metric = 'euclidean'`.
+  * Fit the model and extract cluster labels using `.fit_predict(X_scaled)`.
+  * Append assigned cluster labels (`cluster_id`) back to a copy of the original dataset.
+  * Identify and print the number of discovered dense clusters and total noise points (where `cluster_id == -1`).
+
+### Step 4: Cluster Evaluation & Anomaly Profiling (10 Marks)
+* **Objective:** Validate cluster quality on non-noise points and translate centroids into logistics hub profiles.
+* **Tasks:**
+  * Filter out noise points (`cluster_id != -1`) and compute the **Silhouette Score** exclusively on valid core clusters.
+  * Group non-noise data by `cluster_id` and compute centroid means (average latitude, longitude, delay, and weight) to profile fulfillment zones:
+    * **Hub 0 (Downtown Commercial Core):** High drop density, minimal delays (5-12 min), small parcels (2-7 kg).
+    * **Hub 1 (Suburban Tech Hub):** Moderate coordinates, mid-range delays (12-19 min), medium cargo (15-25 kg).
+    * **Hub 2 (Industrial Logistics Port):** Northern coordinates, scheduled delays (20-28 min), heavy freight (44-58 kg).
+  * Filter and display all isolated anomaly records (`cluster_id == -1`), identifying extreme delay/geographic deviations for fleet investigation.
+
+### Step 5: Pipeline Persistence & Real-Time Anomaly Screening (5 Marks)
+* **Objective:** Export pipeline artifacts and implement an automated outlier detection screening function.
+* **Tasks:**
+  * Serialize the fitted `DBSCAN` model, `StandardScaler`, and core cluster profiles using `joblib.dump()`.
+  * Implement an inference verification function that loads artifacts using `joblib.load()`.
+  * Because scikit-learn's `DBSCAN` does not have a native `.predict()` for streaming points, implement an industry-standard $\varepsilon$-core distance classifier:
+    * Compute Euclidean distance from an incoming delivery drop to known core cluster training points.
+    * If min distance $\le \varepsilon$, assign to that cluster; otherwise, flag as **Operational Anomaly / Outlier Alert**!
+  * Test this inference logic on both a normal incoming drop and an extreme breakdown coordinate.
+
+---
+
+## Pedagogical Core Concepts: DBSCAN Fundamentals
+1. **Core Points:** A point $p$ is a core point if at least `min_samples` points are within distance $\varepsilon$ of $p$ ($|N_\varepsilon(p)| \ge \text{min\_samples}$).
+2. **Border Points:** A point is a border point if it is within distance $\varepsilon$ of a core point, but contains fewer than `min_samples` points in its own neighborhood.
+3. **Noise / Outliers (Label -1):** Any point that is neither a core point nor reachable from any core point. It is explicitly labeled `-1`.
+4. **Parameter Heuristics:**
+   * `min_samples`: Typically set to $\ge 2 \times \text{dimensions}$. For noisy datasets, larger values prevent trivial clusters.
+   * `eps`: Can be selected using a $k$-distance plot (identifying the "elbow" where distance suddenly increases).
+

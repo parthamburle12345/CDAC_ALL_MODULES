@@ -1,0 +1,77 @@
+# CDAC Machine Learning - Surprise Practical Exam Paper 1
+
+## Exam Overview
+- **Paper Code:** ML-PRACTICAL-PAPER-01
+- **Duration:** 45 Minutes
+- **Maximum Marks:** 50 Marks
+- **Problem Domain:** HR Workplace Analytics - Employee Attrition & Retention Prediction
+- **Algorithm Scope:** Supervised Classification (e.g. Logistic Regression or Random Forest Classifier)
+- **Dataset File:** `employee_attrition_data.csv`
+- **Script File:** `paper1.py`
+
+---
+
+## Business Problem Statement
+A multinational enterprise is experiencing elevated voluntary turnover across critical departments (Sales, R&D, and HR). High employee attrition incurs heavy onboarding and institutional knowledge replacement costs. The Chief Human Resources Officer (CHRO) has requested an automated machine learning classification model to flag at-risk employees based on historical workplace metrics (tenure, compensation, overtime burden, job satisfaction, and work-life balance).
+
+Your task as an ML Engineer is to build an end-to-end reproducible classification pipeline in `paper1.py`, evaluate model metrics, serialize the artifacts using `joblib`, and perform a sample inference test.
+
+---
+
+## Dataset Schema (`employee_attrition_data.csv`)
+| Feature Name | Description | Data Type | Notes |
+| :--- | :--- | :--- | :--- |
+| `emp_id` | Unique employee identifier | String | Non-predictive identifier (Must be dropped) |
+| `age` | Employee age in years | Integer | 23 to 58 years |
+| `monthly_income_k` | Monthly salary in thousands of USD | Float | $3.0k to $16.5k |
+| `years_at_company` | Total tenure with company in years | Integer | 1 to 22 years |
+| `overtime` | Overtime status | String | Nominal: 'Yes' or 'No' (Requires encoding) |
+| `job_satisfaction` | Employee survey score | Integer | Ordinal: 1 (Low) to 4 (Very High) |
+| `work_life_balance`| Work-life balance rating | Integer | Ordinal: 1 (Bad) to 4 (Excellent) |
+| `department` | Business department | String | Nominal: 'Sales', 'R&D', 'HR' (Requires encoding) |
+| **`attrition`** | **Target Label (Class)** | **Integer** | **0 = Retained / Stayed, 1 = Left Company** |
+
+---
+
+## Marking Scheme & Rubrics (50 Marks Total)
+
+### Step 0: Library Imports (5 Marks)
+- Correct imports of pandas, numpy, train_test_split, StandardScaler, classifier, metrics, and joblib without syntax errors.
+
+### Phase 1: Data Ingestion & Target Separation (10 Marks)
+- Ingest `employee_attrition_data.csv` correctly.
+- Separate target vector $y$ (`attrition`) and predictor matrix $X$.
+- Drop non-predictive `emp_id` column cleanly.
+- Inspect and print dataset shape and target class distribution (`value_counts()`).
+
+### Phase 2: Categorical Encoding (10 Marks)
+- Identify nominal columns (`overtime`, `department`).
+- Apply One-Hot Encoding (`pd.get_dummies(..., drop_first=True)`).
+- Ensure all encoded columns are numeric integers/floats without SettingWithCopy warnings.
+
+### Phase 3: Train-Test Split & Feature Scaling (10 Marks)
+- Perform 80/20 train-test split with stratification on $y$ (`random_state=42`).
+- Fit `StandardScaler` strictly on training data and transform both train and test partitions to prevent data leakage.
+- Print resulting scaled shapes.
+
+### Phase 4: Model Training & Evaluation (15 Marks)
+- Instantiate and fit classifier (`LogisticRegression(random_state=42)` or `RandomForestClassifier(random_state=42)`).
+- Generate predictions on the holdout test set.
+- Print Accuracy Score, Confusion Matrix, and complete Classification Report (Precision, Recall, F1).
+
+### Phase 5: Joblib Persistence & Inference Test (Bonus / Verification)
+- Save model and scaler to disk using `joblib.dump()`.
+- Load saved artifacts using `joblib.load()`.
+- Create a synthetic test employee profile and output predicted attrition risk and probability.
+
+---
+
+## Exam Rules
+1. Implement all phases step-by-step in `paper1.py`.
+2. Do NOT copy code from previous exercise files — write your code directly in `paper1.py`.
+3. Uncomment the phases in `run_exam_pipeline()` to test your script as you progress.
+4. Verify by running:
+   ```bash
+   python paper1.py
+   ```
+
